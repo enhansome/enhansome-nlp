@@ -1,0 +1,3595 @@
+{
+  "items": [
+    {
+      "description": "This list covers natural language processing — linguistic analysis, multilingual tooling, classical and neural methods, datasets, and evaluation. Large language models are included only where they advance or evaluate a core NLP task or capability (tokenization, multilinguality, MT, summarization, NER, QA, factuality, probing, distillation). General-purpose chatbots, agent frameworks, prompt-template repositories, code-generation tools, and RAG application starter kits live in other lists — see See Also.",
+      "items": [],
+      "title": "Scope"
+    },
+    {
+      "description": "Back to Top",
+      "items": [],
+      "title": "Tutorials"
+    },
+    {
+      "description": "Back to Top",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Deep Natural Language Processing",
+          "description": "Lectures series from Oxford",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": null,
+            "last_commit": "2023-07-02T22:46:23Z",
+            "owner": "oxford-cs-deepnlp-2017",
+            "repo": "lectures",
+            "stars": 15857
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Deep NLP Course",
+          "description": "by Yandex Data School, covering important ideas from text embedding to machine translation including sequence modeling, language models and so on.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Jupyter Notebook",
+            "last_commit": "2026-06-01T14:51:30Z",
+            "owner": "yandexdataschool",
+            "repo": "nlp_course",
+            "stars": 10650
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "fast.ai Code-First Intro to Natural Language Processing",
+          "description": "This covers a blend of traditional NLP topics (including regex, SVD, naive bayes, tokenization) and recent neural network approaches (including RNNs, seq2seq, GRUs, and the Transformer), as well as addressing urgent ethical issues, such as bias and disinformation. Find the Jupyter Notebooks here",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Jupyter Notebook",
+            "last_commit": "2023-03-22T15:41:27Z",
+            "owner": "fastai",
+            "repo": "course-nlp",
+            "stars": 3487
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Machine Learning University - Accelerated Natural Language Processing",
+          "description": "Lectures go from introduction to NLP and text processing to Recurrent Neural Networks and Transformers. Material can be found here.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Jupyter Notebook",
+            "last_commit": "2024-10-13T00:49:31Z",
+            "owner": "aws-samples",
+            "repo": "aws-machine-learning-university-accelerated-nlp",
+            "stars": 2433
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Applied Natural Language Processing",
+          "description": "Lecture series from IIT Madras taking from the basics all the way to autoencoders and everything. The github notebooks for this course are also available here",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Jupyter Notebook",
+            "last_commit": "2025-03-05T17:06:36Z",
+            "owner": "Ramaseshanr",
+            "repo": "anlp",
+            "stars": 42
+          }
+        }
+      ],
+      "title": "Videos and Online Courses"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Natural Language Processing",
+          "description": "free, NLP notes by Dr. Jacob Eisenstein at GeorgiaTech",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TeX",
+            "last_commit": "2023-01-31T05:37:16Z",
+            "owner": "jacobeisenstein",
+            "repo": "gt-nlp-class",
+            "stars": 5078
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "NLP with PyTorch",
+          "description": "Brian & Delip Rao",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Jupyter Notebook",
+            "last_commit": "2023-03-12T18:45:11Z",
+            "owner": "delip",
+            "repo": "PyTorchNLPBook",
+            "stars": 2055
+          }
+        }
+      ],
+      "title": "Books"
+    },
+    {
+      "description": "Back to Top",
+      "items": [
+        {
+          "node_type": "group",
+          "title": "Node.js and Javascript - Node.js Libaries for NLP | Back to Top",
+          "description": null,
+          "children": [
+            {
+              "node_type": "item",
+              "title": "NLP Compromise",
+              "description": "Natural Language processing in the browser",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "language": "JavaScript",
+                "last_commit": "2026-07-20T00:45:38Z",
+                "owner": "spencermountain",
+                "repo": "compromise",
+                "stars": 12147
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Natural",
+              "description": "general natural language facilities for node",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "language": "JavaScript",
+                "last_commit": "2026-02-22T21:53:54Z",
+                "owner": "NaturalNode",
+                "repo": "natural",
+                "stars": 10878
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "NLP.js",
+              "description": "An NLP library for building bots",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "language": "JavaScript",
+                "last_commit": "2025-01-09T14:43:04Z",
+                "owner": "axa-group",
+                "repo": "nlp.js",
+                "stars": 6581
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Knwl.js",
+              "description": "A Natural Language Processor in JS",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "language": "JavaScript",
+                "last_commit": "2023-09-28T00:34:09Z",
+                "owner": "benhmoore",
+                "repo": "Knwl",
+                "stars": 5254
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Twitter-text",
+              "description": "A JavaScript implementation of Twitter's text processing library",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "language": "HTML",
+                "last_commit": "2024-04-26T09:15:03Z",
+                "owner": "twitter",
+                "repo": "twitter-text",
+                "stars": 3139
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Retext",
+              "description": "Extensible system for analyzing and manipulating natural language",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "language": "JavaScript",
+                "last_commit": "2025-02-04T14:37:32Z",
+                "owner": "retextjs",
+                "repo": "retext",
+                "stars": 2435
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Poplar",
+              "description": "A web-based annotation tool for natural language processing (NLP)",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "language": "TypeScript",
+                "last_commit": "2022-12-11T06:37:18Z",
+                "owner": "synyi",
+                "repo": "poplar",
+                "stars": 528
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "node-question-answering",
+              "description": "Fast and production-ready question answering w/ DistilBERT in Node.js",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "language": "TypeScript",
+                "last_commit": "2023-07-18T20:53:57Z",
+                "owner": "huggingface",
+                "repo": "node-question-answering",
+                "stars": 465
+              }
+            }
+          ]
+        },
+        {
+          "node_type": "group",
+          "title": "Python - Python NLP Libraries | Back to Top",
+          "description": null,
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Transformers",
+              "description": "Natural Language Processing for TensorFlow 2.0 and PyTorch.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "language": "Python",
+                "last_commit": "2026-08-13T09:43:06Z",
+                "owner": "huggingface",
+                "repo": "transformers",
+                "stars": 164049
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "spaCy",
+              "description": "Industrial strength NLP with Python and Cython :+1:",
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "textacy",
+                  "description": "Higher level NLP built on spaCy",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "language": "Python",
+                    "last_commit": "2023-09-22T23:38:28Z",
+                    "owner": "chartbeat-labs",
+                    "repo": "textacy",
+                    "stars": 2240
+                  }
+                }
+              ],
+              "repo_info": {
+                "archived": false,
+                "language": "Python",
+                "last_commit": "2026-08-07T11:44:36Z",
+                "owner": "explosion",
+                "repo": "spaCy",
+                "stars": 33814
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "fairSeq",
+              "description": "Facebook AI Research implementations of SOTA seq2seq models in Pytorch.",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "language": "Python",
+                "last_commit": "2025-09-30T11:16:06Z",
+                "owner": "facebookresearch",
+                "repo": "fairseq",
+                "stars": 32241
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Haystack",
+              "description": "End-to-end Python framework for building natural language search interfaces to data. Leverages Transformers and the State-of-the-Art of NLP. Supports DPR, Elasticsearch, HuggingFace’s Modelhub, and much more!",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "language": "Python",
+                "last_commit": "2026-08-13T09:17:28Z",
+                "owner": "deepset-ai",
+                "repo": "haystack",
+                "stars": 26193
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "HuggingFace Datasets",
+              "description": "standardized loaders and processing for thousands of NLP datasets.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "language": "Python",
+                "last_commit": "2026-08-12T14:56:51Z",
+                "owner": "huggingface",
+                "repo": "datasets",
+                "stars": 21835
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Sentence-Transformers",
+              "description": "sentence/document embeddings, semantic search, and re-ranking; current standard for retrieval-style NLP.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "language": "Python",
+                "last_commit": "2026-08-13T09:24:24Z",
+                "owner": "huggingface",
+                "repo": "sentence-transformers",
+                "stars": 18995
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Flair",
+              "description": "A very simple framework for state-of-the-art multilingual NLP built on PyTorch. Includes BERT, ELMo and Flair embeddings.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "language": "Python",
+                "last_commit": "2025-10-27T18:11:31Z",
+                "owner": "flairNLP",
+                "repo": "flair",
+                "stars": 14382
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "AllenNLP",
+              "description": "(archived) - An NLP research library, built on PyTorch, for developing state-of-the-art deep learning models on a wide variety of linguistic tasks.",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "language": "Python",
+                "last_commit": "2022-11-22T23:28:35Z",
+                "owner": "allenai",
+                "repo": "allennlp",
+                "stars": 11888
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Tokenizers",
+              "description": "Tokenizers optimized for Research and Production.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "language": "Rust",
+                "last_commit": "2026-08-13T01:11:23Z",
+                "owner": "huggingface",
+                "repo": "tokenizers",
+                "stars": 10961
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "TextBlob",
+              "description": "Providing a consistent API for diving into common natural language processing (NLP) tasks. Stands on the giant shoulders of Natural Language Toolkit (NLTK) and Pattern, and plays nicely with both :+1:",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "language": "Python",
+                "last_commit": "2026-08-05T13:05:22Z",
+                "owner": "clips",
+                "repo": "pattern",
+                "stars": 8858
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Stanza",
+              "description": "Stanford NLP's Python toolkit for tokenization, POS, lemma, dependency parsing, and NER across 70+ languages.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "language": "Python",
+                "last_commit": "2026-08-13T08:26:52Z",
+                "owner": "stanfordnlp",
+                "repo": "stanza",
+                "stars": 7860
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Argilla",
+              "description": "open-source data annotation and feedback collection platform for LLM and NLP datasets.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "language": "Python",
+                "last_commit": "2026-08-10T22:20:05Z",
+                "owner": "argilla-io",
+                "repo": "argilla",
+                "stars": 5078
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Snips NLU",
+              "description": "A production ready library for intent parsing",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "language": "Python",
+                "last_commit": "2023-05-22T16:10:15Z",
+                "owner": "snipsco",
+                "repo": "snips-nlu",
+                "stars": 3972
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "TextAttack",
+              "description": "Adversarial attacks, adversarial training, and data augmentation in NLP",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "language": "Python",
+                "last_commit": "2026-08-13T03:27:53Z",
+                "owner": "QData",
+                "repo": "TextAttack",
+                "stars": 3460
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "NLP Architect",
+              "description": "A library for exploring the state-of-the-art deep learning topologies and techniques for NLP and NLU",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "language": "Python",
+                "last_commit": "2022-11-07T16:21:47Z",
+                "owner": "IntelLabs",
+                "repo": "nlp-architect",
+                "stars": 2930
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "GluonNLP",
+              "description": "(archived) - A deep learning toolkit for NLP, built on MXNet/Gluon.",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "language": "Python",
+                "last_commit": "2023-10-06T04:01:21Z",
+                "owner": "dmlc",
+                "repo": "gluon-nlp",
+                "stars": 2541
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "HuggingFace Evaluate",
+              "description": "reference implementations for NLP metrics.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "language": "Python",
+                "last_commit": "2026-07-06T13:22:00Z",
+                "owner": "huggingface",
+                "repo": "evaluate",
+                "stars": 2476
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Kashgari",
+              "description": "Simple, Keras-powered multilingual NLP framework, allows you to build your models in 5 minutes for named entity recognition (NER), part-of-speech tagging (PoS) and text classification tasks. Includes BERT and word2vec embedding.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "language": "Python",
+                "last_commit": "2024-09-03T21:05:29Z",
+                "owner": "BrikerMan",
+                "repo": "Kashgari",
+                "stars": 2382
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "scattertext",
+              "description": "Python library to produce d3 visualizations of how language differs between corpora",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "language": "Python",
+                "last_commit": "2026-07-04T21:25:24Z",
+                "owner": "JasonKessler",
+                "repo": "scattertext",
+                "stars": 2342
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "PyTorch-NLP",
+              "description": "NLP research toolkit designed to support rapid prototyping with better data loaders, word vector loaders, neural network layer representations, common NLP metrics such as BLEU",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "language": "Python",
+                "last_commit": "2023-07-04T21:11:26Z",
+                "owner": "PetrochukM",
+                "repo": "PyTorch-NLP",
+                "stars": 2223
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "FARM",
+              "description": "Fast & easy transfer learning for NLP. Harvesting language models for the industry. Focus on Question Answering.",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "language": "Python",
+                "last_commit": "2023-12-20T21:18:02Z",
+                "owner": "deepset-ai",
+                "repo": "FARM",
+                "stars": 1752
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "sacrebleu",
+              "description": "reproducible BLEU/chrF/TER scoring for machine translation.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "language": "Python",
+                "last_commit": "2026-07-17T06:36:09Z",
+                "owner": "mjpost",
+                "repo": "sacrebleu",
+                "stars": 1257
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Sockeye",
+              "description": "Neural Machine Translation (NMT) toolkit that powers Amazon Translate.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "language": "Python",
+                "last_commit": "2024-10-24T08:18:17Z",
+                "owner": "awslabs",
+                "repo": "sockeye",
+                "stars": 1215
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "COMET",
+              "description": "learned MT metrics, current de-facto standard.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "language": "Python",
+                "last_commit": "2026-04-21T22:26:09Z",
+                "owner": "Unbabel",
+                "repo": "COMET",
+                "stars": 774
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "BigARTM",
+              "description": "a fast library for topic modelling",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "language": "C++",
+                "last_commit": "2026-02-05T15:52:09Z",
+                "owner": "bigartm",
+                "repo": "bigartm",
+                "stars": 675
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "corex_topic",
+              "description": "Hierarchical Topic Modeling with Minimal Domain Knowledge",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "language": "Python",
+                "last_commit": "2021-03-22T17:17:37Z",
+                "owner": "gregversteeg",
+                "repo": "corex_topic",
+                "stars": 644
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Word Forms",
+              "description": "Word forms can accurately generate all possible forms of an English word",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "language": "Python",
+                "last_commit": "2021-06-24T21:59:57Z",
+                "owner": "gutfeeling",
+                "repo": "word_forms",
+                "stars": 630
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "LangTest",
+              "description": "60+ test types for NLP model robustness, bias, and fairness.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "language": "Python",
+                "last_commit": "2026-08-13T06:22:16Z",
+                "owner": "PacificAI",
+                "repo": "langtest",
+                "stars": 561
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "DL Translate",
+              "description": "A deep learning-based translation library for 50 languages, built on and Facebook's mBART Large.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "language": "Python",
+                "last_commit": "2024-09-02T21:09:04Z",
+                "owner": "xhluca",
+                "repo": "dl-translate",
+                "stars": 500
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "PyNLPl",
+              "description": "Python Natural Language Processing Library. General purpose NLP library for Python, handles some specific formats like ARPA language models, Moses phrasetables, GIZA++ alignments.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "language": "Python",
+                "last_commit": "2023-09-14T12:24:10Z",
+                "owner": "proycon",
+                "repo": "pynlpl",
+                "stars": 476
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "PySS3",
+              "description": "Python package implementing the SS3 white-box text classifier; ships with interactive visualization tools that explain predictions.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "language": "Python",
+                "last_commit": "2025-10-16T12:51:07Z",
+                "owner": "sergioburdisso",
+                "repo": "pyss3",
+                "stars": 349
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Chazutsu",
+              "description": "A library for downloading&parsing standard NLP research datasets",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "language": "Python",
+                "last_commit": "2022-10-20T22:08:19Z",
+                "owner": "chakki-works",
+                "repo": "chazutsu",
+                "stars": 240
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Rosetta",
+              "description": "Text processing tools and wrappers (e.g. Vowpal Wabbit)",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "language": "Jupyter Notebook",
+                "last_commit": "2022-11-09T14:57:03Z",
+                "owner": "columbia-applied-data-science",
+                "repo": "rosetta",
+                "stars": 207
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Jury",
+              "description": "Evaluation of NLP model outputs offering various automated metrics.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "language": "Python",
+                "last_commit": "2024-08-08T12:15:39Z",
+                "owner": "obss",
+                "repo": "jury",
+                "stars": 187
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "jPTDP",
+              "description": "A toolkit for joint part-of-speech (POS) tagging and dependency parsing. jPTDP provides pre-trained models for 40+ languages.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "language": "Python",
+                "last_commit": "2019-05-23T02:49:23Z",
+                "owner": "datquocnguyen",
+                "repo": "jPTDP",
+                "stars": 156
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Multilingual Latent Dirichlet Allocation (LDA)",
+              "description": "A multilingual and extensible document clustering pipeline",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "language": "Python",
+                "last_commit": "2024-07-16T07:52:16Z",
+                "owner": "ArtificiAI",
+                "repo": "Multilingual-Latent-Dirichlet-Allocation-LDA",
+                "stars": 81
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Rita DSL",
+              "description": "a DSL, loosely based on RUTA on Apache UIMA. Allows to define language patterns (rule-based NLP) which are then translated into spaCy, or if you prefer less features and lightweight - regex patterns.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "language": "Python",
+                "last_commit": "2026-07-23T14:53:26Z",
+                "owner": "zaibacu",
+                "repo": "rita-dsl",
+                "stars": 70
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "python-ucto",
+              "description": "Unicode-aware regular-expression based tokenizer for various languages. Python binding to C++ library, supports FoLiA format.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "language": "Cython",
+                "last_commit": "2026-02-02T14:47:20Z",
+                "owner": "proycon",
+                "repo": "python-ucto",
+                "stars": 32
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Pearmut",
+              "description": "Human annotation tool for multilingual NLP tasks, such as machine translation.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "language": "Python",
+                "last_commit": "2026-08-11T12:23:13Z",
+                "owner": "zouharvi",
+                "repo": "pearmut",
+                "stars": 32
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "foliapy",
+              "description": "Python library for working with FoLiA, an XML format for linguistic annotation.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "language": "Python",
+                "last_commit": "2024-11-18T12:18:53Z",
+                "owner": "proycon",
+                "repo": "foliapy",
+                "stars": 18
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "sentimental-onix",
+              "description": "Sentiment models for spacy using onnx",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "language": "Python",
+                "last_commit": "2024-10-31T10:01:58Z",
+                "owner": "sloev",
+                "repo": "sentimental-onix",
+                "stars": 3
+              }
+            }
+          ]
+        }
+      ],
+      "title": "Libraries"
+    },
+    {
+      "description": "NLP as API with higher level functionality such as NER, Topic tagging and so on | Back to Top",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Wit-ai",
+          "description": "Natural Language Interface for apps and devices",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": null,
+            "last_commit": "2021-09-01T19:02:02Z",
+            "owner": "wit-ai",
+            "repo": "wit",
+            "stars": 965
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "IBM Watson's Natural Language Understanding",
+          "description": "API and Github demo",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "JavaScript",
+            "last_commit": "2023-01-04T21:36:51Z",
+            "owner": "watson-developer-cloud",
+            "repo": "natural-language-understanding-nodejs",
+            "stars": 140
+          }
+        }
+      ],
+      "title": "Services"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Label Studio",
+          "description": "open-core multi-modal labeling platform; widely used for NLP labeling.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-13T09:05:31Z",
+            "owner": "HumanSignal",
+            "repo": "label-studio",
+            "stars": 28042
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "doccano",
+          "description": "doccano is free, open-source, and provides annotation features for text classification, sequence labeling and sequence to sequence",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-04-14T21:16:25Z",
+            "owner": "doccano",
+            "repo": "doccano",
+            "stars": 10737
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Argilla",
+          "description": "open-source platform for collecting human feedback, building NLP and LLM datasets, and curating preference data.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-10T22:20:05Z",
+            "owner": "argilla-io",
+            "repo": "argilla",
+            "stars": 5078
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Potato",
+          "description": "Free, open-source annotation tool covering 21+ task types (classification, span, coreference, entity linking, agent trace evaluation) with built-in MACE quality control, attention checks, AI-assisted labeling, and 300+ example tasks.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-08T04:12:12Z",
+            "owner": "davidjurgens",
+            "repo": "potato",
+            "stars": 408
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Anafora",
+          "description": "is free and open source, web-based raw text annotation tool",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "JavaScript",
+            "last_commit": "2022-10-10T03:42:00Z",
+            "owner": "weitechen",
+            "repo": "anafora",
+            "stars": 241
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "FLAT",
+          "description": "FLAT is a web-based linguistic annotation environment based around the FoLiA format, a rich XML-based format for linguistic annotation. Free and open source.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "JavaScript",
+            "last_commit": "2025-01-24T15:47:58Z",
+            "owner": "proycon",
+            "repo": "flat",
+            "stars": 113
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Shoonya",
+          "description": "Shoonya is free and open source data annotation platform with wide varities of organization and workspace level management system. Shoonya is data agnostic, can be used by teams to annotate data with various level of verification stages at scale.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-13T09:12:41Z",
+            "owner": "AI4Bharat",
+            "repo": "Shoonya-Backend",
+            "stars": 28
+          }
+        }
+      ],
+      "title": "Annotation Tools"
+    },
+    {
+      "description": "NLP tasks organized by linguistic problem. Each subsection lists foundational/classical work first, then neural approaches, then LLM-based methods where relevant. For modern LM-specific research (pretraining, evaluation, retrieval, reasoning, etc.) see Language Models for NLP.",
+      "items": [],
+      "title": "Tasks and Methods"
+    },
+    {
+      "description": "Back to Top",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "SentencePiece",
+          "description": "language-agnostic subword tokenization.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2026-08-12T04:41:05Z",
+            "owner": "google",
+            "repo": "sentencepiece",
+            "stars": 12019
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "SentencePiece",
+          "description": "language-agnostic subword tokenization (BPE and Unigram).",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2026-08-12T04:41:05Z",
+            "owner": "google",
+            "repo": "sentencepiece",
+            "stars": 12019
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Tokenizers",
+          "description": "fast Rust implementations of BPE, WordPiece, Unigram.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-08-13T01:11:23Z",
+            "owner": "huggingface",
+            "repo": "tokenizers",
+            "stars": 10961
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Stanza",
+          "description": "tokenization, lemma, and morphology for 70+ languages.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-13T08:26:52Z",
+            "owner": "stanfordnlp",
+            "repo": "stanza",
+            "stars": 7860
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "UDPipe",
+          "description": "tokenization, tagging, lemmatization, parsing for Universal Dependencies.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2026-06-11T08:38:30Z",
+            "owner": "ufal",
+            "repo": "udpipe",
+            "stars": 418
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Morfessor",
+          "description": "unsupervised morphological segmentation. Tokenizer research and architecture (also see Language Models):",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2020-10-06T14:39:42Z",
+            "owner": "aalto-speech",
+            "repo": "morfessor",
+            "stars": 207
+          }
+        }
+      ],
+      "title": "Tokenization, Morphology, and Segmentation"
+    },
+    {
+      "description": "Back to Top",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "spaCy",
+          "description": "and Stanza - production parsers across many languages.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-13T08:26:52Z",
+            "owner": "stanfordnlp",
+            "repo": "stanza",
+            "stars": 7860
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Trankit",
+          "description": "light-weight transformer-based multilingual NLP toolkit.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2025-07-22T19:16:10Z",
+            "owner": "nlp-uoregon",
+            "repo": "trankit",
+            "stars": 795
+          }
+        }
+      ],
+      "title": "POS Tagging and Dependency Parsing"
+    },
+    {
+      "description": "Back to Top",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "maverick-coref",
+          "description": "(2024) - efficient coreference matching the best larger systems.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2025-06-10T09:37:44Z",
+            "owner": "SapienzaNLP",
+            "repo": "maverick-coref",
+            "stars": 69
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "coref-hoi",
+          "description": "higher-order inference coreference.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2023-05-06T20:03:57Z",
+            "owner": "lxucs",
+            "repo": "coref-hoi",
+            "stars": 60
+          }
+        }
+      ],
+      "title": "Coreference Resolution"
+    },
+    {
+      "description": "Back to Top",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "SetFit",
+          "description": "few-shot text classification without prompts.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Jupyter Notebook",
+            "last_commit": "2026-05-26T10:31:59Z",
+            "owner": "huggingface",
+            "repo": "setfit",
+            "stars": 2778
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "PySS3",
+          "description": "white-box, interpretable text classifier.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2025-10-16T12:51:07Z",
+            "owner": "sergioburdisso",
+            "repo": "pyss3",
+            "stars": 349
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "FastFit",
+          "description": "fast few-shot for many-class settings.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2025-09-18T00:59:44Z",
+            "owner": "IBM",
+            "repo": "fastfit",
+            "stars": 220
+          }
+        }
+      ],
+      "title": "Text Classification and Sentiment Analysis"
+    },
+    {
+      "description": "Back to Top",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "BERTopic",
+          "description": "clustering-based topic modeling on top of contextual embeddings; common modern default.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-02T07:34:26Z",
+            "owner": "MaartenGr",
+            "repo": "BERTopic",
+            "stars": 7784
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Top2Vec",
+          "description": "jointly learns topic and document vectors.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2024-11-14T23:47:51Z",
+            "owner": "ddangelov",
+            "repo": "Top2Vec",
+            "stars": 3103
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "BigARTM",
+          "description": "fast regularized topic modeling.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2026-02-05T15:52:09Z",
+            "owner": "bigartm",
+            "repo": "bigartm",
+            "stars": 675
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "CorEx Topic",
+          "description": "hierarchical topic modeling with anchor words.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2021-03-22T17:17:37Z",
+            "owner": "gregversteeg",
+            "repo": "corex_topic",
+            "stars": 644
+          }
+        }
+      ],
+      "title": "Topic Modeling"
+    },
+    {
+      "description": "Back to Top\nStatistical and foundational neural:",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Fairseq",
+          "description": "PyTorch sequence modeling toolkit.",
+          "children": [],
+          "repo_info": {
+            "archived": true,
+            "language": "Python",
+            "last_commit": "2025-09-30T11:16:06Z",
+            "owner": "facebookresearch",
+            "repo": "fairseq",
+            "stars": 32241
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Marian NMT",
+          "description": "efficient C++ NMT framework.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2023-08-25T22:31:09Z",
+            "owner": "marian-nmt",
+            "repo": "marian",
+            "stars": 1466
+          }
+        }
+      ],
+      "title": "Machine Translation"
+    },
+    {
+      "description": "Back to Top\nDatasets and foundational systems:",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "DrQA",
+          "description": "open-domain QA over Wikipedia.",
+          "children": [],
+          "repo_info": {
+            "archived": true,
+            "language": "Python",
+            "last_commit": "2023-10-01T21:46:08Z",
+            "owner": "facebookresearch",
+            "repo": "DrQA",
+            "stars": 4468
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Document-QA",
+          "description": "multi-paragraph reading comprehension.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2024-02-04T03:28:02Z",
+            "owner": "allenai",
+            "repo": "document-qa",
+            "stars": 437
+          }
+        }
+      ],
+      "title": "Question Answering and Reading Comprehension"
+    },
+    {
+      "description": "Back to Top",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "DocRED",
+          "description": "document-level relation extraction benchmark.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2020-12-01T03:18:37Z",
+            "owner": "thunlp",
+            "repo": "DocRED",
+            "stars": 652
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "REBEL",
+          "description": "end-to-end relation extraction.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2023-11-09T09:42:11Z",
+            "owner": "Babelscape",
+            "repo": "rebel",
+            "stars": 574
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "OpenIE 6",
+          "description": "schema-free open information extraction.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2022-10-03T23:49:32Z",
+            "owner": "dair-iitd",
+            "repo": "openie6",
+            "stars": 128
+          }
+        }
+      ],
+      "title": "Information Extraction Beyond NER"
+    },
+    {
+      "description": "Back to Top\nA short pointer set, since this borders adjacent fields:",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Whisper",
+          "description": "multilingual ASR; the modern open default.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-07-28T20:18:29Z",
+            "owner": "openai",
+            "repo": "whisper",
+            "stars": 107202
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Coqui TTS",
+          "description": "and VieNeu-TTS - open TTS.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2024-08-16T12:07:14Z",
+            "owner": "coqui-ai",
+            "repo": "TTS",
+            "stars": 45889
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "FunASR",
+          "description": "industrial-grade ASR toolkit; 170× realtime on GPU, 50+ languages, built-in VAD, punctuation, speaker diarization, and emotion detection. Includes non-autoregressive SenseVoice and LLM-based Fun-ASR-Nano models.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-13T09:43:32Z",
+            "owner": "modelscope",
+            "repo": "FunASR",
+            "stars": 19815
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "SeamlessM4T",
+          "description": "unified speech and text translation.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Jupyter Notebook",
+            "last_commit": "2026-07-28T13:03:12Z",
+            "owner": "facebookresearch",
+            "repo": "seamless_communication",
+            "stars": 11839
+          }
+        }
+      ],
+      "title": "Speech and Text"
+    },
+    {
+      "description": "Back to Top\nDataset hubs and lists:",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "nlp-datasets",
+          "description": "large collection of NLP datasets.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": null,
+            "last_commit": "2023-02-15T13:58:35Z",
+            "owner": "niderhoff",
+            "repo": "nlp-datasets",
+            "stars": 5992
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "gensim-data",
+          "description": "data repository for pretrained NLP models and NLP corpora.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2018-03-16T13:55:53Z",
+            "owner": "piskvorky",
+            "repo": "gensim-data",
+            "stars": 1059
+          }
+        }
+      ],
+      "title": "Datasets"
+    },
+    {
+      "description": "Back to Top",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "NLP-Cube",
+          "description": "Natural Language Processing Pipeline - Sentence Splitting, Tokenization, Lemmatization, Part-of-speech Tagging and Dependency Parsing. New platform, written in Python with Dynet 2.0. Offers standalone (CLI/Python bindings) and server functionality (REST API).",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "HTML",
+            "last_commit": "2024-11-03T16:28:36Z",
+            "owner": "adobe",
+            "repo": "NLP-Cube",
+            "stars": 562
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "UDPipe",
+          "description": "is a trainable pipeline for tokenizing, tagging, lemmatizing and parsing Universal Treebanks and other CoNLL-U files. Primarily written in C++, offers a fast and reliable solution for multilingual NLP processing.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2026-06-11T08:38:30Z",
+            "owner": "ufal",
+            "repo": "udpipe",
+            "stars": 418
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "UralicNLP",
+          "description": "is an NLP library mostly for many endangered Uralic languages such as Sami languages, Mordvin languages, Mari languages, Komi languages and so on. Also some non-endangered languages are supported such as Finnish together with non-Uralic languages such as Swedish and Arabic. UralicNLP can do morphological analysis, generation, lemmatization and disambiguation.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-03-12T15:06:33Z",
+            "owner": "mikahama",
+            "repo": "uralicNLP",
+            "stars": 100
+          }
+        }
+      ],
+      "title": "Multilingual NLP Frameworks"
+    },
+    {
+      "description": "Back to Top\nPretrained language models and the research around them, scoped to NLP tasks and linguistic phenomena. For general-purpose LLM tooling, agents, or RAG application kits, see See Also.",
+      "items": [],
+      "title": "Language Models for NLP"
+    },
+    {
+      "description": "NLU and cross-lingual:",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "MTEB",
+          "description": "Massive Text Embedding Benchmark; standard for sentence/document encoders.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-13T09:25:46Z",
+            "owner": "embeddings-benchmark",
+            "repo": "mteb",
+            "stars": 3390
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "BEIR",
+          "description": "heterogeneous IR benchmark for retrieval models.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2025-10-16T06:38:03Z",
+            "owner": "beir-cellar",
+            "repo": "beir",
+            "stars": 2269
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "FLORES-200",
+          "description": "MT evaluation across 200 languages.",
+          "children": [],
+          "repo_info": {
+            "archived": true,
+            "language": "Python",
+            "last_commit": "2023-11-20T21:03:52Z",
+            "owner": "facebookresearch",
+            "repo": "flores",
+            "stars": 770
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "XNLI",
+          "description": "cross-lingual natural language inference, 15 languages.",
+          "children": [],
+          "repo_info": {
+            "archived": true,
+            "language": null,
+            "last_commit": "2021-08-30T21:16:02Z",
+            "owner": "facebookresearch",
+            "repo": "XNLI",
+            "stars": 463
+          }
+        }
+      ],
+      "title": "Evaluation and Benchmarks"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "RAGAS",
+          "description": "reference-free evaluation for RAG and QA pipelines.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-02-24T07:47:19Z",
+            "owner": "vibrantlabsai",
+            "repo": "ragas",
+            "stars": 15300
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "TruthfulQA",
+          "description": "benchmark for truthfulness in question answering.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Jupyter Notebook",
+            "last_commit": "2025-01-16T03:13:08Z",
+            "owner": "sylinrl",
+            "repo": "TruthfulQA",
+            "stars": 937
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "SelfCheckGPT",
+          "description": "sampling-based hallucination detection.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2024-06-26T16:17:02Z",
+            "owner": "potsawee",
+            "repo": "selfcheckgpt",
+            "stars": 629
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "FActScore",
+          "description": "fine-grained factual precision in long-form generation.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2025-04-13T20:41:02Z",
+            "owner": "shmsw25",
+            "repo": "FActScore",
+            "stars": 456
+          }
+        }
+      ],
+      "title": "Factuality, Hallucination, Calibration"
+    },
+    {
+      "description": "Distillation and small models:",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "GTE",
+          "description": ", BGE, and Stella - compact text embedding models near the top of MTEB.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-04-22T16:00:42Z",
+            "owner": "FlagOpen",
+            "repo": "FlagEmbedding",
+            "stars": 12043
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "SetFit",
+          "description": "few-shot text classification without prompts.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Jupyter Notebook",
+            "last_commit": "2026-05-26T10:31:59Z",
+            "owner": "huggingface",
+            "repo": "setfit",
+            "stars": 2778
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "FastFit",
+          "description": "fast few-shot classification for many-class settings.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2025-09-18T00:59:44Z",
+            "owner": "IBM",
+            "repo": "fastfit",
+            "stars": 220
+          }
+        }
+      ],
+      "title": "Efficient and Small Language Models"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "TRL",
+          "description": "reference library for SFT, DPO, GRPO, and RLHF.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-13T08:56:52Z",
+            "owner": "huggingface",
+            "repo": "trl",
+            "stars": 19066
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Self-Instruct",
+          "description": "bootstrapping instruction data from LMs.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2023-03-27T18:18:51Z",
+            "owner": "yizhongw",
+            "repo": "self-instruct",
+            "stars": 4611
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Super-NaturalInstructions",
+          "description": "1600+ NLP tasks with instructions.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2023-12-11T12:28:49Z",
+            "owner": "allenai",
+            "repo": "natural-instructions",
+            "stars": 1045
+          }
+        }
+      ],
+      "title": "Instruction Tuning and Preference Optimization"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "RealToxicityPrompts",
+          "description": "toxicity in LM generation.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Jupyter Notebook",
+            "last_commit": "2021-02-23T17:50:02Z",
+            "owner": "allenai",
+            "repo": "real-toxicity-prompts",
+            "stars": 234
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "HolisticBias",
+          "description": "bias measurement across many demographic axes.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-04-18T01:41:32Z",
+            "owner": "facebookresearch",
+            "repo": "ResponsibleNLP",
+            "stars": 212
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "StereoSet",
+          "description": "measuring stereotypical bias in pretrained LMs.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2022-12-08T04:03:30Z",
+            "owner": "moinnadeem",
+            "repo": "StereoSet",
+            "stars": 204
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "CrowS-Pairs",
+          "description": "social bias measurement in masked LMs.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "HTML",
+            "last_commit": "2024-03-01T01:15:56Z",
+            "owner": "nyu-mll",
+            "repo": "crows-pairs",
+            "stars": 138
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "WinoBias",
+          "description": "gender bias in coreference resolution.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "CSS",
+            "last_commit": "2025-05-06T17:18:28Z",
+            "owner": "uclanlp",
+            "repo": "corefBias",
+            "stars": 78
+          }
+        }
+      ],
+      "title": "Bias, Fairness, Safety in NLP"
+    },
+    {
+      "description": "Back to Top\nResources organized by human language. Click a section to expand.",
+      "items": [],
+      "title": "NLP per Language"
+    },
+    {
+      "description": "Back to Top",
+      "items": [],
+      "title": "NLP in Arabic"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "CAMeL Tools",
+          "description": "Python toolkit for Arabic NLP including dialect ID, morphology, NER.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-06-08T11:51:52Z",
+            "owner": "CAMeL-Lab",
+            "repo": "camel_tools",
+            "stars": 571
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "goarabic",
+          "description": "Go package for Arabic text processing.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2023-05-28T08:50:11Z",
+            "owner": "01walid",
+            "repo": "goarabic",
+            "stars": 117
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "RFTokenizer",
+          "description": "trainable segmenter for Arabic, Hebrew, and Coptic.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Lex",
+            "last_commit": "2026-06-15T21:04:56Z",
+            "owner": "amir-zeldes",
+            "repo": "RFTokenizer",
+            "stars": 32
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "jsastem",
+          "description": "JavaScript Arabic stemmer.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "JavaScript",
+            "last_commit": "2012-12-01T00:52:28Z",
+            "owner": "ejtaal",
+            "repo": "jsastem",
+            "stars": 26
+          }
+        }
+      ],
+      "title": "Libraries"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "AraBERT",
+          "description": "Arabic BERT family.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2022-10-17T00:26:39Z",
+            "owner": "aub-mind",
+            "repo": "arabert",
+            "stars": 727
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "AraELECTRA",
+          "description": "efficient Arabic pretraining (released alongside AraBERT).",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2022-10-17T00:26:39Z",
+            "owner": "aub-mind",
+            "repo": "arabert",
+            "stars": 727
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "CAMeLBERT",
+          "description": "BERT models for MSA, dialectal, and Classical Arabic.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2024-06-21T05:12:11Z",
+            "owner": "CAMeL-Lab",
+            "repo": "CAMeLBERT",
+            "stars": 58
+          }
+        }
+      ],
+      "title": "Models and Embeddings"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Arabic Stopwords",
+          "description": "aggregated Arabic stopwords.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": null,
+            "last_commit": "2024-03-27T00:39:43Z",
+            "owner": "mohataher",
+            "repo": "arabic-stop-words",
+            "stars": 334
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Multidomain Datasets",
+          "description": "largest available multi-domain Arabic sentiment analysis resources.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2018-04-16T09:07:13Z",
+            "owner": "hadyelsahar",
+            "repo": "large-arabic-sentiment-analysis-resouces",
+            "stars": 121
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "LABR",
+          "description": "large Arabic book reviews dataset.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2014-11-14T13:16:03Z",
+            "owner": "mohamedadaly",
+            "repo": "LABR",
+            "stars": 46
+          }
+        }
+      ],
+      "title": "Datasets"
+    },
+    {
+      "description": "Back to Top",
+      "items": [],
+      "title": "NLP in Chinese"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "HanLP",
+          "description": "multilingual NLP library with strong Chinese support.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2025-11-15T23:08:17Z",
+            "owner": "hankcs",
+            "repo": "HanLP",
+            "stars": 36481
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "jieba",
+          "description": "Python package for Chinese word segmentation.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2024-08-21T09:23:45Z",
+            "owner": "fxsjy",
+            "repo": "jieba",
+            "stars": 35112
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "SnowNLP",
+          "description": "Python package for Chinese NLP.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2020-01-19T02:39:05Z",
+            "owner": "isnowfy",
+            "repo": "snownlp",
+            "stars": 6632
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "LTP",
+          "description": "HIT Language Technology Platform: segmentation, POS, NER, parsing.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-03-11T11:57:37Z",
+            "owner": "HIT-SCIR",
+            "repo": "ltp",
+            "stars": 5260
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "FudanNLP",
+          "description": "Java library for Chinese text processing.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Java",
+            "last_commit": "2023-11-17T04:27:43Z",
+            "owner": "FudanNLP",
+            "repo": "fnlp",
+            "stars": 2685
+          }
+        }
+      ],
+      "title": "Libraries"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "DeepSeek-V3",
+          "description": "efficient open MoE model with strong Chinese.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2025-08-28T03:24:37Z",
+            "owner": "deepseek-ai",
+            "repo": "DeepSeek-V3",
+            "stars": 104172
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Qwen 2.5 / Qwen 3",
+          "description": "Alibaba's open Chinese-strong LM family.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-01-09T03:05:47Z",
+            "owner": "QwenLM",
+            "repo": "Qwen3",
+            "stars": 27505
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "ChatGLM3 / GLM-4",
+          "description": "Tsinghua's bilingual Chinese-English LMs.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2025-01-13T06:55:26Z",
+            "owner": "zai-org",
+            "repo": "ChatGLM3",
+            "stars": 13660
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Chinese-BERT-wwm",
+          "description": "whole-word masking BERT for Chinese.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-04-19T00:57:10Z",
+            "owner": "ymcui",
+            "repo": "Chinese-BERT-wwm",
+            "stars": 10223
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Yi",
+          "description": "01.AI's bilingual open LMs.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Jupyter Notebook",
+            "last_commit": "2024-11-27T09:25:57Z",
+            "owner": "01-ai",
+            "repo": "Yi",
+            "stars": 7822
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Baichuan 2",
+          "description": "open Chinese LM.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2024-11-08T08:31:29Z",
+            "owner": "baichuan-inc",
+            "repo": "Baichuan2",
+            "stars": 4086
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "MacBERT",
+          "description": "improved Chinese BERT with MLM-as-correction pretraining.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": null,
+            "last_commit": "2026-04-19T01:01:07Z",
+            "owner": "ymcui",
+            "repo": "MacBERT",
+            "stars": 718
+          }
+        }
+      ],
+      "title": "Models and Embeddings"
+    },
+    {
+      "description": "Back to Top",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "DaNLP",
+          "description": "NLP resources in Danish.",
+          "children": [],
+          "repo_info": {
+            "archived": true,
+            "language": "Python",
+            "last_commit": "2025-02-12T09:20:41Z",
+            "owner": "alexandrainst",
+            "repo": "danlp",
+            "stars": 209
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Awesome Danish",
+          "description": "curated list of resources for Danish language technology.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": null,
+            "last_commit": "2024-12-11T13:08:59Z",
+            "owner": "fnielsen",
+            "repo": "awesome-danish",
+            "stars": 197
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Named Entity Recognition for Danish",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Shell",
+            "last_commit": "2019-07-23T08:20:56Z",
+            "owner": "ITUnlp",
+            "repo": "daner",
+            "stars": 17
+          }
+        }
+      ],
+      "title": "NLP in Danish"
+    },
+    {
+      "description": "Back to Top",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Kaldi NL",
+          "description": "Dutch speech-recognition models based on Kaldi.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Shell",
+            "last_commit": "2023-11-01T11:55:01Z",
+            "owner": "opensource-spraakherkenning-nl",
+            "repo": "Kaldi_NL",
+            "stars": 70
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "python-frog",
+          "description": "Python binding to Frog, an NLP suite for Dutch (POS tagging, lemmatization, dependency parsing, NER).",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Cython",
+            "last_commit": "2026-02-02T14:58:47Z",
+            "owner": "proycon",
+            "repo": "python-frog",
+            "stars": 50
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Alpino",
+          "description": "dependency parser for Dutch (also does POS tagging and lemmatization).",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Prolog",
+            "last_commit": "2026-07-22T13:37:33Z",
+            "owner": "rug-compling",
+            "repo": "Alpino",
+            "stars": 30
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "SimpleNLG_NL",
+          "description": "Dutch surface realiser for natural language generation, based on the SimpleNLG implementation.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Java",
+            "last_commit": "2020-10-15T10:05:17Z",
+            "owner": "rfdj",
+            "repo": "SimpleNLG-NL",
+            "stars": 5
+          }
+        }
+      ],
+      "title": "NLP in Dutch"
+    },
+    {
+      "description": "Back to Top",
+      "items": [],
+      "title": "NLP in Indic Languages"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Peter Graham's Stopwords List",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "JavaScript",
+            "last_commit": "2023-05-04T08:13:42Z",
+            "owner": "6",
+            "repo": "stopwords-json",
+            "stars": 432
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "BBC News Hindi Dataset",
+          "description": "4.3k Samples, 14 classes",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Jupyter Notebook",
+            "last_commit": "2019-03-09T07:42:56Z",
+            "owner": "NirantK",
+            "repo": "hindi2vec",
+            "stars": 219
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Hindi Movie Reviews Dataset",
+          "description": "~1k Samples, 3 polarity classes",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Jupyter Notebook",
+            "last_commit": "2020-08-05T17:05:01Z",
+            "owner": "goru001",
+            "repo": "nlp-for-hindi",
+            "stars": 123
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "IIT Patna Hindi ABSA Dataset",
+          "description": "5.4k Samples, 12 Domains, 4k aspect terms, aspect and sentence level polarity in 4 classes",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2017-08-31T00:02:15Z",
+            "owner": "pnisarg",
+            "repo": "ABSA",
+            "stars": 11
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Bangla ABSA",
+          "description": "5.5k Samples, 2 Domains, 10 aspect terms",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": null,
+            "last_commit": "2018-04-03T02:50:33Z",
+            "owner": "atik-05",
+            "repo": "Bangla_Datasets_ABSA",
+            "stars": 0
+          }
+        }
+      ],
+      "title": "Data, Corpora and Treebanks"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Hindi and Bengali Word2Vec",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2018-10-11T20:54:06Z",
+            "owner": "Kyubyong",
+            "repo": "wordvectors",
+            "stars": 2234
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Hindi and Urdu Elmo Model",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2021-05-19T07:05:17Z",
+            "owner": "HIT-SCIR",
+            "repo": "ELMoForManyLangs",
+            "stars": 1460
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Hindi2Vec",
+          "description": "and nlp-for-hindi ULMFIT style languge model",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Jupyter Notebook",
+            "last_commit": "2020-08-05T17:05:01Z",
+            "owner": "goru001",
+            "repo": "nlp-for-hindi",
+            "stars": 123
+          }
+        }
+      ],
+      "title": "Language Models and Word Embeddings"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "iNLTK",
+          "description": "NLP toolkit for Indic languages on PyTorch/Fastai.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2024-01-20T12:40:33Z",
+            "owner": "goru001",
+            "repo": "inltk",
+            "stars": 838
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Indic NLP Library",
+          "description": "tokenization, transliteration, MT helpers across 18 Indic languages.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2024-06-07T07:14:41Z",
+            "owner": "anoopkunchukuttan",
+            "repo": "indic_nlp_library",
+            "stars": 642
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Multi-Task Deep Morphological Analyzer",
+          "description": "deep morphological parser for Hindi and Urdu.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2018-11-17T11:31:47Z",
+            "owner": "srvCodes",
+            "repo": "mt-dma",
+            "stars": 1
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "SivaReddy's Dependency Parser (Python3 port)",
+          "description": "dependency parsing and POS tagging for Kannada, Hindi, and Telugu.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Lex",
+            "last_commit": "2019-05-07T17:53:03Z",
+            "owner": "CalmDownKarm",
+            "repo": "sivareddydependencyparser",
+            "stars": 0
+          }
+        }
+      ],
+      "title": "Libraries and Tooling"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "IndicTrans2",
+          "description": "(2023-2024) - high-quality MT for 22 Indic languages.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2025-10-03T07:05:20Z",
+            "owner": "AI4Bharat",
+            "repo": "IndicTrans2",
+            "stars": 457
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "IndicBERT v2",
+          "description": "(2022-2024) - multilingual BERT for 23 Indic languages.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2025-04-06T21:35:01Z",
+            "owner": "AI4Bharat",
+            "repo": "IndicBERT",
+            "stars": 122
+          }
+        }
+      ],
+      "title": "Models and Embeddings"
+    },
+    {
+      "description": "Back to Top",
+      "items": [],
+      "title": "NLP in Indonesian"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "PySastrawi",
+          "description": "Python stemmer for Bahasa Indonesia based on the Sastrawi stemming algorithm.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-05-21T08:23:30Z",
+            "owner": "har07",
+            "repo": "PySastrawi",
+            "stars": 361
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "bahasa",
+          "description": "natural language toolkit for Indonesian.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2024-05-16T08:41:59Z",
+            "owner": "kangfend",
+            "repo": "bahasa",
+            "stars": 21
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Indonesian Word Embedding",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "JavaScript",
+            "last_commit": "2018-01-31T11:26:49Z",
+            "owner": "galuhsahid",
+            "repo": "indonesian-word-embedding",
+            "stars": 20
+          }
+        }
+      ],
+      "title": "Libraries and Embeddings"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "IndoBERT (IndoNLU)",
+          "description": "pretrained Indonesian LM with the IndoNLU benchmark suite.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Jupyter Notebook",
+            "last_commit": "2024-11-16T15:44:43Z",
+            "owner": "IndoNLP",
+            "repo": "indonlu",
+            "stars": 655
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "SEA-LION",
+          "description": "(2024) - Singapore AI's open Southeast-Asian LM with strong Indonesian.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Jupyter Notebook",
+            "last_commit": "2026-08-03T07:02:28Z",
+            "owner": "aisingapore",
+            "repo": "sealion",
+            "stars": 421
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "NusaCrowd / Cendol",
+          "description": "(2023-2024) - large-scale community datasets and Cendol instruction-tuned LMs for Indonesian and regional languages.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Jupyter Notebook",
+            "last_commit": "2024-06-02T18:05:33Z",
+            "owner": "IndoNLP",
+            "repo": "nusa-crowd",
+            "stars": 289
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Sailor",
+          "description": "open Southeast-Asian LMs covering Indonesian.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2024-12-21T10:35:16Z",
+            "owner": "sail-sg",
+            "repo": "sailor-llm",
+            "stars": 139
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "IndoBERT (IndoLEM)",
+          "description": "alternative IndoBERT with the IndoLEM benchmark.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2020-12-14T12:51:21Z",
+            "owner": "indolem",
+            "repo": "indolem",
+            "stars": 110
+          }
+        }
+      ],
+      "title": "Models"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "SEACrowd",
+          "description": "A multilingual and multimodal data hub providing standardized datasets and benchmarks for Southeast Asian NLP (EMNLP 2024).",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-03-16T09:45:02Z",
+            "owner": "SEACrowd",
+            "repo": "seacrowd-datahub",
+            "stars": 105
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "IDN for PoS tagging",
+          "description": "10K sentences and 250K word tokens.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": null,
+            "last_commit": "2022-07-05T12:06:41Z",
+            "owner": "famrashel",
+            "repo": "idn-tagged-corpus",
+            "stars": 90
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "IndoSum",
+          "description": "text summarization and classification.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2019-03-20T02:33:59Z",
+            "owner": "kata-ai",
+            "repo": "indosum",
+            "stars": 75
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Indonesian Treebank",
+          "description": "and Universal Dependencies-Indonesian",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": null,
+            "last_commit": "2022-07-05T12:09:31Z",
+            "owner": "famrashel",
+            "repo": "idn-treebank",
+            "stars": 35
+          }
+        }
+      ],
+      "title": "Datasets"
+    },
+    {
+      "description": "Back to Top",
+      "items": [],
+      "title": "NLP in Korean"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Kiwi",
+          "description": "fast Korean morphological analyzer.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2026-08-11T16:35:09Z",
+            "owner": "bab2min",
+            "repo": "Kiwi",
+            "stars": 766
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "kss",
+          "description": "Korean sentence splitter.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2025-11-13T08:01:55Z",
+            "owner": "hyunwoongko",
+            "repo": "kss",
+            "stars": 471
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Garu",
+          "description": "browser-native Korean morphological analyzer running fully client-side via WebAssembly (1MB model, offline, MIT).",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-05T02:35:59Z",
+            "owner": "ongjin",
+            "repo": "garu",
+            "stars": 175
+          }
+        }
+      ],
+      "title": "Libraries"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "KoBERT",
+          "description": "Korean BERT from SKT.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2025-06-14T19:06:29Z",
+            "owner": "SKTBrain",
+            "repo": "KoBERT",
+            "stars": 1414
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "KLUE-RoBERTa",
+          "description": "models trained on the KLUE benchmark.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": null,
+            "last_commit": "2026-06-30T05:52:33Z",
+            "owner": "KLUE-benchmark",
+            "repo": "KLUE",
+            "stars": 602
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Polyglot-Ko",
+          "description": "open Korean LMs.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": null,
+            "last_commit": "2023-08-22T22:54:29Z",
+            "owner": "EleutherAI",
+            "repo": "polyglot",
+            "stars": 488
+          }
+        }
+      ],
+      "title": "Models and Embeddings"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Naver Sentiment Movie Corpus in Korean",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2017-03-07T15:16:43Z",
+            "owner": "e9t",
+            "repo": "nsmc",
+            "stars": 606
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Chat data",
+          "description": "chatbot data in Korean.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": null,
+            "last_commit": "2023-03-30T11:59:31Z",
+            "owner": "songys",
+            "repo": "Chatbot_data",
+            "stars": 361
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Petitions",
+          "description": "expired petition data from the Blue House National Petition Site.",
+          "children": [],
+          "repo_info": {
+            "archived": true,
+            "language": "Python",
+            "last_commit": "2018-08-02T14:19:49Z",
+            "owner": "akngs",
+            "repo": "petitions",
+            "stars": 40
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Korean Parallel corpora",
+          "description": "NMT dataset for Korean to French and Korean to English.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": null,
+            "last_commit": "2014-11-27T11:51:56Z",
+            "owner": "j-min",
+            "repo": "korean-parallel-corpora",
+            "stars": 11
+          }
+        }
+      ],
+      "title": "Datasets"
+    },
+    {
+      "description": "Back to Top",
+      "items": [],
+      "title": "NLP in Persian"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Hazm",
+          "description": "Persian NLP toolkit.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-04-01T18:55:05Z",
+            "owner": "roshan-research",
+            "repo": "hazm",
+            "stars": 1417
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Parsivar",
+          "description": "Persian language processing toolkit.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2024-01-02T16:22:43Z",
+            "owner": "ICTRC",
+            "repo": "Parsivar",
+            "stars": 247
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "ParsiAnalyzer",
+          "description": "Persian analyzer for Elasticsearch.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Java",
+            "last_commit": "2024-04-28T10:41:23Z",
+            "owner": "NarimanN2",
+            "repo": "ParsiAnalyzer",
+            "stars": 166
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "virastar",
+          "description": "Persian text cleaning.",
+          "children": [],
+          "repo_info": {
+            "archived": true,
+            "language": "Ruby",
+            "last_commit": "2018-05-25T11:51:40Z",
+            "owner": "aziz",
+            "repo": "virastar",
+            "stars": 88
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Perke",
+          "description": "Persian keyphrase extraction.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-10T19:09:09Z",
+            "owner": "alirezatheh",
+            "repo": "perke",
+            "stars": 74
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Perstem",
+          "description": "Persian stemmer, morphological analyzer, and partial POS tagger.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Perl",
+            "last_commit": "2016-03-30T18:58:35Z",
+            "owner": "jonsafari",
+            "repo": "perstem",
+            "stars": 20
+          }
+        }
+      ],
+      "title": "Libraries"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "FarsiYar PersianNER",
+          "description": "~25M tokens, ~1M Persian sentences from Persian Wikipedia Corpus.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": null,
+            "last_commit": "2021-06-29T11:46:07Z",
+            "owner": "Text-Mining",
+            "repo": "Persian-NER",
+            "stars": 238
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "ArmanPersoNERCorpus",
+          "description": "250K tokens, 7,682 sentences with NER tags in IOB format.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": null,
+            "last_commit": "2020-07-23T00:18:38Z",
+            "owner": "HaniehP",
+            "repo": "PersianNER",
+            "stars": 61
+          }
+        }
+      ],
+      "title": "Datasets"
+    },
+    {
+      "description": "Back to Top",
+      "items": [],
+      "title": "NLP in Spanish"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Compilation of Spanish Unannotated Corpora",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2022-10-20T05:40:40Z",
+            "owner": "josecannete",
+            "repo": "spanish-corpora",
+            "stars": 105
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Spanish Billion Words Corpus with Word2Vec embeddings",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2022-12-16T20:16:18Z",
+            "owner": "crscardellino",
+            "repo": "sbwce",
+            "stars": 54
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Columbian Political Speeches",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": null,
+            "last_commit": "2013-07-26T21:45:01Z",
+            "owner": "dav009",
+            "repo": "LatinamericanTextResources",
+            "stars": 6
+          }
+        }
+      ],
+      "title": "Data"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "BETO",
+          "description": "BERT for Spanish.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": null,
+            "last_commit": "2023-10-21T22:05:29Z",
+            "owner": "dccuchile",
+            "repo": "beto",
+            "stars": 504
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Spanish Word Embeddings (multiple methods/corpora)",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": null,
+            "last_commit": "2019-10-09T02:45:05Z",
+            "owner": "dccuchile",
+            "repo": "spanish-word-embeddings",
+            "stars": 364
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Latxa",
+          "description": "(2024) - open foundation LM for Basque, also covers Spanish.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Shell",
+            "last_commit": "2025-12-15T09:47:21Z",
+            "owner": "hitz-zentroa",
+            "repo": "latxa",
+            "stars": 36
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Spanish fastText Embeddings",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": null,
+            "last_commit": "2019-07-19T06:34:30Z",
+            "owner": "BotCenter",
+            "repo": "spanishWordEmbeddings",
+            "stars": 8
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Spanish sent2vec Sentence Embeddings",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": null,
+            "last_commit": "2019-07-19T06:26:01Z",
+            "owner": "BotCenter",
+            "repo": "spanish-sent2vec",
+            "stars": 4
+          }
+        }
+      ],
+      "title": "Models and Embeddings"
+    },
+    {
+      "description": "Back to Top",
+      "items": [],
+      "title": "NLP in Thai"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "PyThaiNLP",
+          "description": "Thai NLP in Python.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-08T14:25:33Z",
+            "owner": "PyThaiNLP",
+            "repo": "pythainlp",
+            "stars": 1148
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "CutKum",
+          "description": "word segmentation with deep learning in TensorFlow.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2023-12-14T18:30:46Z",
+            "owner": "pucktada",
+            "repo": "cutkum",
+            "stars": 154
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "SynThai",
+          "description": "word segmentation and POS tagging using deep learning.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2017-05-26T00:29:34Z",
+            "owner": "KrakenAI",
+            "repo": "SynThai",
+            "stars": 41
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "JTCC",
+          "description": "character cluster library in Java.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Java",
+            "last_commit": "2017-05-30T12:24:58Z",
+            "owner": "wittawatj",
+            "repo": "jtcc",
+            "stars": 21
+          }
+        }
+      ],
+      "title": "Libraries"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Sailor",
+          "description": "open Southeast-Asian LM family covering Thai.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2024-12-21T10:35:16Z",
+            "owner": "sail-sg",
+            "repo": "sailor-llm",
+            "stars": 139
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "WangchanBERTa",
+          "description": "pretrained Thai language model.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Jupyter Notebook",
+            "last_commit": "2023-11-06T03:32:35Z",
+            "owner": "vistec-AI",
+            "repo": "thai2transformers",
+            "stars": 123
+          }
+        }
+      ],
+      "title": "Models"
+    },
+    {
+      "description": "Back to Top",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "awesome-ukrainian-nlp",
+          "description": "curated list of Ukrainian NLP datasets, models, etc.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": null,
+            "last_commit": "2026-02-19T10:59:54Z",
+            "owner": "osyvokon",
+            "repo": "awesome-ukrainian-nlp",
+            "stars": 239
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "UkrainianLT",
+          "description": "curated list focused on machine translation and speech processing.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": null,
+            "last_commit": "2022-04-27T08:55:33Z",
+            "owner": "Helsinki-NLP",
+            "repo": "UkrainianLT",
+            "stars": 40
+          }
+        }
+      ],
+      "title": "NLP in Ukrainian"
+    },
+    {
+      "description": "Back to Top",
+      "items": [],
+      "title": "NLP in Urdu"
+    },
+    {
+      "description": "Back to Top",
+      "items": [],
+      "title": "NLP in Uzbek"
+    },
+    {
+      "description": "Back to Top",
+      "items": [],
+      "title": "NLP in Vietnamese"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "VieNeu-TTS",
+          "description": "on-device Vietnamese text-to-speech with voice cloning.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-03T04:30:33Z",
+            "owner": "pnnbao97",
+            "repo": "VieNeu-TTS",
+            "stars": 2328
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "underthesea",
+          "description": "Vietnamese NLP toolkit.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-13T05:09:35Z",
+            "owner": "undertheseanlp",
+            "repo": "underthesea",
+            "stars": 1802
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "VnCoreNLP",
+          "description": "Vietnamese NLP toolkit.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Java",
+            "last_commit": "2023-02-12T08:39:59Z",
+            "owner": "vncorenlp",
+            "repo": "VnCoreNLP",
+            "stars": 677
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "pyvi",
+          "description": "Python Vietnamese core NLP toolkit.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Jupyter Notebook",
+            "last_commit": "2024-09-26T15:02:48Z",
+            "owner": "trungtv",
+            "repo": "pyvi",
+            "stars": 278
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "vn.vitk",
+          "description": "Vietnamese text processing toolkit.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Java",
+            "last_commit": "2022-01-27T16:15:33Z",
+            "owner": "phuonglh",
+            "repo": "vn.vitk",
+            "stars": 218
+          }
+        }
+      ],
+      "title": "Libraries"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "PhoBERT",
+          "description": "pretrained LM for Vietnamese.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": null,
+            "last_commit": "2026-08-04T00:51:02Z",
+            "owner": "VinAIResearch",
+            "repo": "PhoBERT",
+            "stars": 799
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "PhoGPT",
+          "description": "(VinAI, 2023-2024) - open generative LM for Vietnamese.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2024-11-12T07:40:32Z",
+            "owner": "VinAIResearch",
+            "repo": "PhoGPT",
+            "stars": 791
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Sailor",
+          "description": "(2024) - open multilingual LM family covering Vietnamese, Thai, Indonesian, and other Southeast Asian languages.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2024-12-21T10:35:16Z",
+            "owner": "sail-sg",
+            "repo": "sailor-llm",
+            "stars": 139
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "BARTpho",
+          "description": "sequence-to-sequence pretrained model for Vietnamese.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": null,
+            "last_commit": "2024-07-22T13:48:45Z",
+            "owner": "VinAIResearch",
+            "repo": "BARTpho",
+            "stars": 105
+          }
+        }
+      ],
+      "title": "Models and Embeddings"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "EVB Corpus",
+          "description": "20M words across 15 bilingual books, 100 parallel English-Vietnamese texts, 250 parallel law texts, 5K news articles, and 2K film subtitles.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": null,
+            "last_commit": "2019-07-12T14:26:04Z",
+            "owner": "qhungngo",
+            "repo": "EVBCorpus",
+            "stars": 52
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "ViText2SQL",
+          "description": "Vietnamese Text-to-SQL semantic parsing dataset (EMNLP-2020 Findings).",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": null,
+            "last_commit": "2024-07-22T13:51:42Z",
+            "owner": "VinAIResearch",
+            "repo": "ViText2SQL",
+            "stars": 39
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "UD_Vietnamese",
+          "description": "Vietnamese Universal Dependency Treebank.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": null,
+            "last_commit": "2026-05-06T19:16:03Z",
+            "owner": "UniversalDependencies",
+            "repo": "UD_Vietnamese-VTB",
+            "stars": 38
+          }
+        }
+      ],
+      "title": "Data"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Russian: pymorphy2",
+          "description": "a good pos-tagger for Russian",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2024-06-26T17:47:11Z",
+            "owner": "pymorphy2",
+            "repo": "pymorphy2",
+            "stars": 1175
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Ancient Languages: CLTK",
+          "description": "The Classical Language Toolkit is a Python library and collection of texts for doing NLP in ancient languages",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-01T22:16:44Z",
+            "owner": "cltk",
+            "repo": "cltk",
+            "stars": 916
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Hebrew: NLPH_Resources",
+          "description": "A collection of papers, corpora and linguistic resources for NLP in Hebrew",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Java",
+            "last_commit": "2025-05-11T03:05:16Z",
+            "owner": "NNLP-IL",
+            "repo": "Hebrew-Resources",
+            "stars": 293
+          }
+        }
+      ],
+      "title": "Other Languages"
+    },
+    {
+      "description": "Adjacent curated lists for topics out of scope here:",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "awesome-llm",
+          "description": "general-purpose large language model resources.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": null,
+            "last_commit": "2025-07-31T02:38:24Z",
+            "owner": "Hannibal046",
+            "repo": "Awesome-LLM",
+            "stars": 27256
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "awesome-mlops",
+          "description": "production ML, including LLM serving.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": null,
+            "last_commit": "2024-11-21T14:45:11Z",
+            "owner": "visenger",
+            "repo": "awesome-mlops",
+            "stars": 14156
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "awesome-generative-ai",
+          "description": "generative AI across modalities.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": null,
+            "last_commit": "2026-08-03T10:58:05Z",
+            "owner": "steven2358",
+            "repo": "awesome-generative-ai",
+            "stars": 12491
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "awesome-prompt-engineering",
+          "description": "prompting techniques and template libraries.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-13T07:43:49Z",
+            "owner": "promptslab",
+            "repo": "Awesome-Prompt-Engineering",
+            "stars": 6246
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "awesome-rag",
+          "description": "retrieval-augmented generation systems and tooling.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": null,
+            "last_commit": "2026-07-09T14:58:23Z",
+            "owner": "Danielskry",
+            "repo": "Awesome-RAG",
+            "stars": 1335
+          }
+        }
+      ],
+      "title": "See Also"
+    },
+    {
+      "description": "If you find this repository useful, please consider citing this list:",
+      "items": [],
+      "title": "Citation"
+    },
+    {
+      "description": "License - CC0",
+      "items": [],
+      "title": "License"
+    }
+  ],
+  "metadata": {
+    "last_updated": "2026-08-13T09:44:55.108Z",
+    "original_repository": "keon/awesome-nlp",
+    "original_repository_sha": "10da9c40512482cbaad28605cb678bdfb19863ac",
+    "enhanced_repository": "enhansome/enhansome-nlp",
+    "enhanced_repository_description": null,
+    "title": "awesome-nlp with stars"
+  }
+}
