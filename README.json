@@ -1,7 +1,7 @@
 {
   "items": [
     {
-      "description": "Back to Top",
+      "description": null,
       "items": [
         {
           "children": [
@@ -54,7 +54,7 @@
                 "last_commit": "2023-07-02T22:46:23Z",
                 "owner": "oxford-cs-deepnlp-2017",
                 "repo": "lectures",
-                "stars": 15854
+                "stars": 15853
               }
             },
             {
@@ -66,10 +66,10 @@
                 "archived": false,
                 "id": 147919799,
                 "language": "Jupyter Notebook",
-                "last_commit": "2026-08-24T08:41:49Z",
+                "last_commit": "2026-08-24T10:40:57Z",
                 "owner": "yandexdataschool",
                 "repo": "nlp_course",
-                "stars": 10653
+                "stars": 10654
               }
             },
             {
@@ -118,7 +118,7 @@
               }
             }
           ],
-          "description": "Back to Top",
+          "description": null,
           "node_type": "group",
           "title": "Videos and Online Courses"
         },
@@ -136,7 +136,7 @@
                 "last_commit": "2023-01-31T05:37:16Z",
                 "owner": "jacobeisenstein",
                 "repo": "gt-nlp-class",
-                "stars": 5080
+                "stars": 5079
               }
             },
             {
@@ -163,7 +163,7 @@
       "title": "Tutorials"
     },
     {
-      "description": "Back to Top",
+      "description": null,
       "items": [
         {
           "node_type": "group",
@@ -197,7 +197,7 @@
                 "last_commit": "2026-02-22T21:53:54Z",
                 "owner": "NaturalNode",
                 "repo": "natural",
-                "stars": 10879
+                "stars": 10880
               }
             },
             {
@@ -212,7 +212,7 @@
                 "last_commit": "2025-01-09T14:43:04Z",
                 "owner": "axa-group",
                 "repo": "nlp.js",
-                "stars": 6582
+                "stars": 6583
               }
             },
             {
@@ -306,10 +306,10 @@
                 "archived": false,
                 "id": 155220641,
                 "language": "Python",
-                "last_commit": "2026-08-24T09:04:48Z",
+                "last_commit": "2026-08-24T13:46:26Z",
                 "owner": "huggingface",
                 "repo": "transformers",
-                "stars": 164390
+                "stars": 164393
               }
             },
             {
@@ -340,7 +340,7 @@
                 "last_commit": "2026-08-24T08:26:10Z",
                 "owner": "explosion",
                 "repo": "spaCy",
-                "stars": 33840
+                "stars": 33839
               }
             },
             {
@@ -367,10 +367,10 @@
                 "archived": false,
                 "id": 221654678,
                 "language": "Python",
-                "last_commit": "2026-08-24T09:25:16Z",
+                "last_commit": "2026-08-24T13:38:44Z",
                 "owner": "deepset-ai",
                 "repo": "haystack",
-                "stars": 26300
+                "stars": 26304
               }
             },
             {
@@ -415,7 +415,7 @@
                 "last_commit": "2025-10-27T18:11:31Z",
                 "owner": "flairNLP",
                 "repo": "flair",
-                "stars": 14383
+                "stars": 14384
               }
             },
             {
@@ -442,7 +442,7 @@
                 "archived": false,
                 "id": 219035799,
                 "language": "Rust",
-                "last_commit": "2026-08-24T09:19:14Z",
+                "last_commit": "2026-08-24T12:03:18Z",
                 "owner": "huggingface",
                 "repo": "tokenizers",
                 "stars": 10990
@@ -490,7 +490,7 @@
                 "last_commit": "2026-08-17T22:45:04Z",
                 "owner": "argilla-io",
                 "repo": "argilla",
-                "stars": 5082
+                "stars": 5083
               }
             },
             {
@@ -505,7 +505,7 @@
                 "last_commit": "2023-05-22T16:10:15Z",
                 "owner": "snipsco",
                 "repo": "snips-nlu",
-                "stars": 3973
+                "stars": 3972
               }
             },
             {
@@ -1805,7 +1805,7 @@
               }
             }
           ],
-          "description": "NLP as API with higher level functionality such as NER, Topic tagging and so on | Back to Top",
+          "description": null,
           "node_type": "group",
           "title": "Services"
         },
@@ -1823,7 +1823,7 @@
                 "last_commit": "2026-08-24T06:13:58Z",
                 "owner": "HumanSignal",
                 "repo": "label-studio",
-                "stars": 28119
+                "stars": 28122
               }
             },
             {
@@ -1838,7 +1838,7 @@
                 "last_commit": "2026-04-14T21:16:25Z",
                 "owner": "doccano",
                 "repo": "doccano",
-                "stars": 10756
+                "stars": 10757
               }
             },
             {
@@ -1853,7 +1853,7 @@
                 "last_commit": "2026-08-17T22:45:04Z",
                 "owner": "argilla-io",
                 "repo": "argilla",
-                "stars": 5082
+                "stars": 5083
               }
             },
             {
@@ -1931,6 +1931,28 @@
           "children": [
             {
               "node_type": "item",
+              "title": "fastText",
+              "description": "implementation; subword n-grams handle OOV well, still useful for low-resource languages.",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "id": 63484632,
+                "language": "HTML",
+                "last_commit": "2024-03-22T21:40:44Z",
+                "owner": "facebookresearch",
+                "repo": "fastText",
+                "stars": 26537
+              }
+            }
+          ],
+          "description": "Static word embeddings (foundational):\nContextual embeddings:\nModern sentence and document embeddings: see Retrieval for NLP (Sentence-Transformers, E5, BGE-M3, Nomic, GritLM) and MTEB for current leaderboards.",
+          "node_type": "group",
+          "title": "Text Embeddings"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
               "title": "SentencePiece",
               "description": "language-agnostic subword tokenization.",
               "children": [],
@@ -1968,7 +1990,7 @@
                 "archived": false,
                 "id": 219035799,
                 "language": "Rust",
-                "last_commit": "2026-08-24T09:19:14Z",
+                "last_commit": "2026-08-24T12:03:18Z",
                 "owner": "huggingface",
                 "repo": "tokenizers",
                 "stars": 10990
@@ -2020,7 +2042,7 @@
               }
             }
           ],
-          "description": "Back to Top",
+          "description": null,
           "node_type": "group",
           "title": "Tokenization, Morphology, and Segmentation"
         },
@@ -2057,9 +2079,46 @@
               }
             }
           ],
-          "description": "Back to Top",
+          "description": null,
           "node_type": "group",
           "title": "POS Tagging and Dependency Parsing"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Flair",
+              "description": "contextual string embeddings, strong NER across languages.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 136914524,
+                "language": "Python",
+                "last_commit": "2025-10-27T18:11:31Z",
+                "owner": "flairNLP",
+                "repo": "flair",
+                "stars": 14384
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "REBEL",
+              "description": "end-to-end relation extraction as seq2seq.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 403631098,
+                "language": "Python",
+                "last_commit": "2023-11-09T09:42:11Z",
+                "owner": "Babelscape",
+                "repo": "rebel",
+                "stars": 574
+              }
+            }
+          ],
+          "description": "Foundational and neural:\nOpen and instruction-following IE:\nLLM-based:",
+          "node_type": "group",
+          "title": "Named Entity Recognition and Information Extraction"
         },
         {
           "children": [
@@ -2094,7 +2153,7 @@
               }
             }
           ],
-          "description": "Back to Top",
+          "description": null,
           "node_type": "group",
           "title": "Coreference Resolution"
         },
@@ -2146,7 +2205,7 @@
               }
             }
           ],
-          "description": "Back to Top",
+          "description": null,
           "node_type": "group",
           "title": "Text Classification and Sentiment Analysis"
         },
@@ -2213,7 +2272,7 @@
               }
             }
           ],
-          "description": "Back to Top",
+          "description": null,
           "node_type": "group",
           "title": "Topic Modeling"
         },
@@ -2295,7 +2354,7 @@
               }
             }
           ],
-          "description": "Back to Top\nStatistical and foundational neural:\nMassively multilingual:\nEvaluation:\nLLM-based:",
+          "description": "Statistical and foundational neural:\nMassively multilingual:\nEvaluation:\nLLM-based:",
           "node_type": "group",
           "title": "Machine Translation"
         },
@@ -2332,7 +2391,7 @@
               }
             }
           ],
-          "description": "Back to Top\nDatasets and foundational systems:\nModern open-domain QA:\nLLM-era:",
+          "description": "Datasets and foundational systems:\nModern open-domain QA:\nLLM-era:",
           "node_type": "group",
           "title": "Question Answering and Reading Comprehension"
         },
@@ -2384,9 +2443,31 @@
               }
             }
           ],
-          "description": "Back to Top",
+          "description": null,
           "node_type": "group",
           "title": "Information Extraction Beyond NER"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "BGE",
+              "description": "and BGE-M3 (2024) - multilingual, multi-functionality embeddings; top of MTEB across languages.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 673596675,
+                "language": "Python",
+                "last_commit": "2026-08-24T02:57:42Z",
+                "owner": "FlagOpen",
+                "repo": "FlagEmbedding",
+                "stars": 12079
+              }
+            }
+          ],
+          "description": "Dense and late-interaction retrieval, increasingly the substrate for QA and IR:",
+          "node_type": "group",
+          "title": "Retrieval and Embeddings"
         },
         {
           "children": [
@@ -2402,7 +2483,7 @@
                 "last_commit": "2026-07-28T20:18:29Z",
                 "owner": "openai",
                 "repo": "whisper",
-                "stars": 107855
+                "stars": 107861
               }
             },
             {
@@ -2417,7 +2498,7 @@
                 "last_commit": "2024-08-16T12:07:14Z",
                 "owner": "coqui-ai",
                 "repo": "TTS",
-                "stars": 45941
+                "stars": 45943
               }
             },
             {
@@ -2432,7 +2513,7 @@
                 "last_commit": "2026-08-21T04:17:05Z",
                 "owner": "modelscope",
                 "repo": "FunASR",
-                "stars": 19990
+                "stars": 19994
               }
             },
             {
@@ -2451,7 +2532,7 @@
               }
             }
           ],
-          "description": "Back to Top\nA short pointer set, since this borders adjacent fields:",
+          "description": "A short pointer set, since this borders adjacent fields:",
           "node_type": "group",
           "title": "Speech and Text"
         }
@@ -2459,7 +2540,7 @@
       "title": "Tasks and Methods"
     },
     {
-      "description": "Back to Top\nDataset hubs and lists:\nPretraining-scale corpora (open):\nTask and instruction datasets:",
+      "description": "Dataset hubs and lists:\nPretraining-scale corpora (open):\nTask and instruction datasets:",
       "items": [
         {
           "node_type": "item",
@@ -2518,14 +2599,29 @@
             "last_commit": "2025-11-05T22:00:12Z",
             "owner": "allenai",
             "repo": "dolma",
-            "stars": 1535
+            "stars": 1536
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "tiny_qa_benchmark_pp",
+          "description": "tiny NLP multi-lingual QA datasets and library to generate your own synthetic copies.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 984769683,
+            "language": "Python",
+            "last_commit": "2026-04-30T20:44:26Z",
+            "owner": "vincentkoc",
+            "repo": "tiny_qa_benchmark_pp",
+            "stars": 18
           }
         }
       ],
       "title": "Datasets"
     },
     {
-      "description": "Back to Top",
+      "description": null,
       "items": [
         {
           "node_type": "item",
@@ -2576,7 +2672,7 @@
       "title": "Multilingual NLP Frameworks"
     },
     {
-      "description": "Back to Top\nPretrained language models and the research around them, scoped to NLP tasks and linguistic phenomena. For general-purpose LLM tooling, agents, or RAG application kits, see See Also.",
+      "description": "Pretrained language models and the research around them, scoped to NLP tasks and linguistic phenomena. For general-purpose LLM tooling, agents, or RAG application kits, see See Also.",
       "items": [
         {
           "children": [
@@ -2589,7 +2685,7 @@
                 "archived": false,
                 "id": 478037973,
                 "language": "Python",
-                "last_commit": "2026-08-24T09:07:00Z",
+                "last_commit": "2026-08-24T13:32:45Z",
                 "owner": "embeddings-benchmark",
                 "repo": "mteb",
                 "stars": 3401
@@ -2649,10 +2745,10 @@
                 "archived": false,
                 "id": 290909192,
                 "language": "Python",
-                "last_commit": "2026-08-22T22:59:11Z",
+                "last_commit": "2026-08-24T13:43:20Z",
                 "owner": "EleutherAI",
                 "repo": "lm-evaluation-harness",
-                "stars": 13770
+                "stars": 13773
               }
             },
             {
@@ -2734,7 +2830,7 @@
                 "last_commit": "2026-02-24T07:47:19Z",
                 "owner": "vibrantlabsai",
                 "repo": "ragas",
-                "stars": 15445
+                "stars": 15450
               }
             },
             {
@@ -2801,7 +2897,7 @@
                 "last_commit": "2026-08-24T02:57:42Z",
                 "owner": "FlagOpen",
                 "repo": "FlagEmbedding",
-                "stars": 12076
+                "stars": 12079
               }
             },
             {
@@ -2843,10 +2939,10 @@
                 "archived": false,
                 "id": 612354784,
                 "language": "C++",
-                "last_commit": "2026-08-24T09:24:53Z",
+                "last_commit": "2026-08-24T13:41:49Z",
                 "owner": "ggml-org",
                 "repo": "llama.cpp",
-                "stars": 125370
+                "stars": 125396
               }
             },
             {
@@ -2858,10 +2954,10 @@
                 "archived": false,
                 "id": 599547518,
                 "language": "Python",
-                "last_commit": "2026-08-24T07:28:38Z",
+                "last_commit": "2026-08-24T13:23:27Z",
                 "owner": "vllm-project",
                 "repo": "vllm",
-                "stars": 89853
+                "stars": 89869
               }
             },
             {
@@ -2873,10 +2969,10 @@
                 "archived": false,
                 "id": 740303686,
                 "language": "Python",
-                "last_commit": "2026-08-24T09:25:16Z",
+                "last_commit": "2026-08-24T13:29:19Z",
                 "owner": "sgl-project",
                 "repo": "sglang",
-                "stars": 32342
+                "stars": 32353
               }
             },
             {
@@ -2892,6 +2988,21 @@
                 "owner": "huggingface",
                 "repo": "text-generation-inference",
                 "stars": 10888
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "PEFT",
+              "description": "HuggingFace library bundling LoRA, prefix tuning, IA3, and others.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 570384908,
+                "language": "Python",
+                "last_commit": "2026-08-24T11:52:02Z",
+                "owner": "huggingface",
+                "repo": "peft",
+                "stars": 21590
               }
             }
           ],
@@ -2910,10 +3021,10 @@
                 "archived": false,
                 "id": 250510075,
                 "language": "Python",
-                "last_commit": "2026-08-24T09:26:39Z",
+                "last_commit": "2026-08-24T13:45:15Z",
                 "owner": "huggingface",
                 "repo": "trl",
-                "stars": 19140
+                "stars": 19144
               }
             },
             {
@@ -3037,7 +3148,7 @@
       "title": "Language Models for NLP"
     },
     {
-      "description": "Back to Top\nResources organized by human language. Click a section to expand.",
+      "description": "Resources organized by human language. Click a section to expand.",
       "items": [
         {
           "children": [
@@ -3224,7 +3335,7 @@
                 "last_commit": "2025-11-15T23:08:17Z",
                 "owner": "hankcs",
                 "repo": "HanLP",
-                "stars": 36480
+                "stars": 36481
               }
             },
             {
@@ -3306,7 +3417,7 @@
                 "last_commit": "2025-08-28T03:24:37Z",
                 "owner": "deepseek-ai",
                 "repo": "DeepSeek-V3",
-                "stars": 104401
+                "stars": 104402
               }
             },
             {
@@ -3321,7 +3432,7 @@
                 "last_commit": "2026-01-09T03:05:47Z",
                 "owner": "QwenLM",
                 "repo": "Qwen3",
-                "stars": 27552
+                "stars": 27553
               }
             },
             {
@@ -3366,7 +3477,7 @@
                 "last_commit": "2024-11-27T09:25:57Z",
                 "owner": "01-ai",
                 "repo": "Yi",
-                "stars": 7833
+                "stars": 7835
               }
             },
             {
@@ -3403,6 +3514,28 @@
           "description": null,
           "node_type": "group",
           "title": "Models and Embeddings"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "funNLP",
+              "description": "large collection of Chinese NLP tools and resources.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 145553672,
+                "language": "Python",
+                "last_commit": "2024-05-10T07:38:24Z",
+                "owner": "fighting41love",
+                "repo": "funNLP",
+                "stars": 82638
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Anthology"
         },
         {
           "children": [
@@ -3452,7 +3585,7 @@
               }
             }
           ],
-          "description": "Back to Top",
+          "description": null,
           "node_type": "group",
           "title": "NLP in Danish"
         },
@@ -3497,7 +3630,7 @@
                 "archived": false,
                 "id": 213907430,
                 "language": "Prolog",
-                "last_commit": "2026-08-20T09:18:05Z",
+                "last_commit": "2026-08-24T11:09:24Z",
                 "owner": "rug-compling",
                 "repo": "Alpino",
                 "stars": 31
@@ -3519,9 +3652,53 @@
               }
             }
           ],
-          "description": "Back to Top",
+          "description": null,
           "node_type": "group",
           "title": "NLP in Dutch"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "German-NLP",
+              "description": "curated list of open-access, open-source, and off-the-shelf resources and tools developed with a focus on German.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 137056286,
+                "language": null,
+                "last_commit": "2024-10-30T15:05:49Z",
+                "owner": "adbar",
+                "repo": "German-NLP",
+                "stars": 531
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "NLP in German"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "awesome-hungarian-nlp",
+              "description": "curated list of free resources for Hungarian NLP.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 88435597,
+                "language": null,
+                "last_commit": "2026-04-14T08:55:18Z",
+                "owner": "oroszgy",
+                "repo": "awesome-hungarian-nlp",
+                "stars": 282
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "NLP in Hungarian"
         },
         {
           "children": [
@@ -4234,6 +4411,28 @@
           "children": [
             {
               "node_type": "item",
+              "title": "ParsBERT",
+              "description": "Persian BERT.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 266982566,
+                "language": "Jupyter Notebook",
+                "last_commit": "2023-06-12T21:29:25Z",
+                "owner": "hooshvare",
+                "repo": "parsbert",
+                "stars": 426
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Models"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
               "title": "FarsiYar PersianNER",
               "description": "~25M tokens, ~1M Persian sentences from Persian Wikipedia Corpus.",
               "children": [],
@@ -4266,6 +4465,94 @@
           "description": null,
           "node_type": "group",
           "title": "Datasets"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Polish-NLP",
+              "description": "curated list of resources dedicated to Polish NLP: models, tools, and datasets.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 230600593,
+                "language": null,
+                "last_commit": "2021-08-08T05:14:02Z",
+                "owner": "ksopyla",
+                "repo": "awesome-nlp-polish",
+                "stars": 307
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "NLP in Polish"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Portuguese-nlp",
+              "description": "curated list of Portuguese NLP resources and tools.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 509836312,
+                "language": null,
+                "last_commit": "2026-06-25T19:34:04Z",
+                "owner": "ajdavidl",
+                "repo": "Portuguese-NLP",
+                "stars": 368
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "NLP in Portuguese"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "BERTimbau",
+              "description": "BERT for Brazilian Portuguese.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 233952052,
+                "language": "Python",
+                "last_commit": "2024-06-17T22:52:41Z",
+                "owner": "neuralmind-ai",
+                "repo": "portuguese-bert",
+                "stars": 880
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Models"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "spanlp",
+              "description": "Python library to detect, censor, and clean profanity, hate speech, and bullying in Spanish, with data from 21 Spanish-speaking countries.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 315125536,
+                "language": "Python",
+                "last_commit": "2024-06-15T03:42:34Z",
+                "owner": "jfreddypuentes",
+                "repo": "spanlp",
+                "stars": 43
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Libraries"
         },
         {
           "children": [
@@ -4509,6 +4796,28 @@
           "children": [
             {
               "node_type": "item",
+              "title": "Prime Minister 29",
+              "description": "dataset of speeches by the current Prime Minister of Thailand.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 78909759,
+                "language": "Python",
+                "last_commit": "2024-02-13T06:46:54Z",
+                "owner": "PyThaiNLP",
+                "repo": "lexicon-thai",
+                "stars": 146
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Data"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
               "title": "awesome-ukrainian-nlp",
               "description": "curated list of Ukrainian NLP datasets, models, etc.",
               "children": [],
@@ -4538,9 +4847,75 @@
               }
             }
           ],
-          "description": "Back to Top",
+          "description": null,
           "node_type": "group",
           "title": "NLP in Ukrainian"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "urduhack",
+              "description": "NLP library for Urdu.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 163254580,
+                "language": "Python",
+                "last_commit": "2024-01-04T16:16:28Z",
+                "owner": "urduhack",
+                "repo": "urduhack",
+                "stars": 310
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Libraries"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Collection of Urdu datasets",
+              "description": "POS, NER, and other NLP tasks.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 172056186,
+                "language": null,
+                "last_commit": "2024-08-09T10:54:33Z",
+                "owner": "mirfan899",
+                "repo": "Urdu",
+                "stars": 73
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Datasets"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "SOAS English-Uzbek RAG Evaluation",
+              "description": "Bilingual retrieval-evaluation benchmark for culturally grounded RAG. 400 rows, EN+UZ, MIT/CC-BY-4.0.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1176058471,
+                "language": "Python",
+                "last_commit": "2026-07-01T06:32:17Z",
+                "owner": "rajantripathi",
+                "repo": "soas-rag-evaluation",
+                "stars": 1
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Datasets"
         },
         {
           "children": [
@@ -4556,7 +4931,7 @@
                 "last_commit": "2026-08-24T04:25:44Z",
                 "owner": "pnnbao97",
                 "repo": "VieNeu-TTS",
-                "stars": 2389
+                "stars": 2397
               }
             },
             {
@@ -4571,7 +4946,7 @@
                 "last_commit": "2026-08-24T05:14:20Z",
                 "owner": "undertheseanlp",
                 "repo": "underthesea",
-                "stars": 1803
+                "stars": 1804
               }
             },
             {
@@ -4791,7 +5166,7 @@
               }
             }
           ],
-          "description": "Back to Top",
+          "description": null,
           "node_type": "group",
           "title": "Other Languages"
         }
@@ -4813,7 +5188,7 @@
             "last_commit": "2025-07-31T02:38:24Z",
             "owner": "Hannibal046",
             "repo": "Awesome-LLM",
-            "stars": 27278
+            "stars": 27279
           }
         },
         {
@@ -4843,7 +5218,7 @@
             "last_commit": "2026-08-03T10:58:05Z",
             "owner": "steven2358",
             "repo": "awesome-generative-ai",
-            "stars": 12528
+            "stars": 12529
           }
         },
         {
@@ -4858,7 +5233,7 @@
             "last_commit": "2026-08-24T07:10:45Z",
             "owner": "promptslab",
             "repo": "Awesome-Prompt-Engineering",
-            "stars": 6281
+            "stars": 6282
           }
         },
         {
@@ -4873,7 +5248,7 @@
             "last_commit": "2026-07-09T14:58:23Z",
             "owner": "Danielskry",
             "repo": "Awesome-RAG",
-            "stars": 1347
+            "stars": 1345
           }
         }
       ],
@@ -4881,7 +5256,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-24T09:28:18.544Z",
+    "last_updated": "2026-08-24T13:50:10.336Z",
     "original_repository": "keon/awesome-nlp",
     "original_repository_id": 47184304,
     "original_repository_sha": "8d5f69dc298cc0e55791097aa5eb1a86aa31441a",
