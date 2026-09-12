@@ -1,6 +1,6 @@
 # awesome-nlp with stars
 
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) ⭐ 505,017 | 🐛 106 | 📅 2026-09-02
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) ⭐ 505,304 | 🐛 106 | 📅 2026-09-02
 
 ***
 
@@ -14,7 +14,7 @@
 
 A curated list of resources dedicated to Natural Language Processing
 
-*Please read the [contribution guidelines](contributing.md) before contributing. Please add your favourite NLP resource by raising a [pull request](https://github.com/keonkim/awesome-nlp/pulls) ⭐ 18,984 | 🐛 17 | 📅 2026-09-07*
+*Please read the [contribution guidelines](contributing.md) before contributing. Please add your favourite NLP resource by raising a [pull request](https://github.com/keonkim/awesome-nlp/pulls) ⭐ 18,986 | 🐛 17 | 📅 2026-09-07*
 
 ## Scope
 
@@ -165,7 +165,7 @@ Blogs and Newsletters
 [Back to Top](#contents)
 
 * [Deep Natural Language Processing](https://github.com/oxford-cs-deepnlp-2017/lectures) ⭐ 15,853 | 🐛 12 | 📅 2023-07-02 - Lectures series from Oxford
-* [Deep NLP Course](https://github.com/yandexdataschool/nlp_course) ⭐ 10,682 | 🐛 8 | 🌐 Jupyter Notebook | 📅 2026-08-24 by Yandex Data School, covering important ideas from text embedding to machine translation including sequence modeling, language models and so on.
+* [Deep NLP Course](https://github.com/yandexdataschool/nlp_course) ⭐ 10,682 | 🐛 9 | 🌐 Jupyter Notebook | 📅 2026-09-11 by Yandex Data School, covering important ideas from text embedding to machine translation including sequence modeling, language models and so on.
 * [fast.ai Code-First Intro to Natural Language Processing](https://www.fast.ai/2019/07/08/fastai-nlp/) - This covers a blend of traditional NLP topics (including regex, SVD, naive bayes, tokenization) and recent neural network approaches (including RNNs, seq2seq, GRUs, and the Transformer), as well as addressing urgent ethical issues, such as bias and disinformation. Find the Jupyter Notebooks [here](https://github.com/fastai/course-nlp) ⭐ 3,492 | 🐛 54 | 🌐 Jupyter Notebook | 📅 2023-03-22
 * [Machine Learning University - Accelerated Natural Language Processing](https://www.youtube.com/playlist?list=PL8P_Z6C4GcuWfAq8Pt6PBYlck4OprHXsw) - Lectures go from introduction to NLP and text processing to Recurrent Neural Networks and Transformers.
   Material can be found [here](https://github.com/aws-samples/aws-machine-learning-university-accelerated-nlp) ⭐ 2,434 | 🐛 2 | 🌐 Jupyter Notebook | 📅 2024-10-13.
@@ -200,7 +200,7 @@ Blogs and Newsletters
 [Back to Top](#contents)
 
 * <a id="node-js">**Node.js and Javascript** - Node.js Libaries for NLP</a> | [Back to Top](#contents)
-  * [NLP Compromise](https://github.com/spencermountain/compromise) ⭐ 12,153 | 🐛 119 | 🌐 JavaScript | 📅 2026-09-10 - Natural Language processing in the browser
+  * [NLP Compromise](https://github.com/spencermountain/compromise) ⭐ 12,155 | 🐛 119 | 🌐 JavaScript | 📅 2026-09-11 - Natural Language processing in the browser
   * [Natural](https://github.com/NaturalNode/natural) ⭐ 10,879 | 🐛 88 | 🌐 JavaScript | 📅 2026-02-22 - general natural language facilities for node
   * [NLP.js](https://github.com/axa-group/nlp.js) ⭐ 6,588 | 🐛 114 | 🌐 JavaScript | 📅 2025-01-09 - An NLP library for building bots
   * [Knwl.js](https://github.com/benhmoore/Knwl.js) ⭐ 5,250 | 🐛 13 | 🌐 JavaScript | 📅 2023-09-28 - A Natural Language Processor in JS
@@ -210,20 +210,20 @@ Blogs and Newsletters
   * [node-question-answering](https://github.com/huggingface/node-question-answering) ⚠️ Archived - Fast and production-ready question answering w/ DistilBERT in Node.js
 
 * <a id="python"> **Python** - Python NLP Libraries</a> | [Back to Top](#contents)
-  * [Transformers](https://github.com/huggingface/transformers) ⭐ 165,114 | 🐛 2,402 | 🌐 Python | 📅 2026-09-11 - Natural Language Processing for TensorFlow 2.0 and PyTorch.
-  * [spaCy](https://github.com/explosion/spaCy) ⭐ 33,891 | 🐛 240 | 🌐 Python | 📅 2026-08-24 - Industrial strength NLP with Python and Cython :+1:
+  * [Transformers](https://github.com/huggingface/transformers) ⭐ 165,159 | 🐛 2,414 | 🌐 Python | 📅 2026-09-12 - Natural Language Processing for TensorFlow 2.0 and PyTorch.
+  * [spaCy](https://github.com/explosion/spaCy) ⭐ 33,893 | 🐛 240 | 🌐 Python | 📅 2026-08-24 - Industrial strength NLP with Python and Cython :+1:
     * [textacy](https://github.com/chartbeat-labs/textacy) ⭐ 2,239 | 🐛 35 | 🌐 Python | 📅 2023-09-22 - Higher level NLP built on spaCy
   * [fairSeq](https://github.com/pytorch/fairseq) ⚠️ Archived Facebook AI Research implementations of SOTA seq2seq models in Pytorch.
-  * [Haystack](https://github.com/deepset-ai/haystack) ⭐ 26,476 | 🐛 133 | 🌐 Python | 📅 2026-09-11 - End-to-end Python framework for building natural language search interfaces to data. Leverages Transformers and the State-of-the-Art of NLP. Supports DPR, Elasticsearch, HuggingFace’s Modelhub, and much more!
-  * [HuggingFace Datasets](https://github.com/huggingface/datasets) ⭐ 21,966 | 🐛 1,354 | 🌐 Python | 📅 2026-09-11 - standardized loaders and processing for thousands of NLP datasets.
-  * [Sentence-Transformers](https://github.com/UKPLab/sentence-transformers) ⭐ 19,091 | 🐛 1,295 | 🌐 Python | 📅 2026-09-11 - sentence/document embeddings, semantic search, and re-ranking; current standard for retrieval-style NLP.
-  * [Flair](https://github.com/zalandoresearch/flair) ⭐ 14,386 | 🐛 31 | 🌐 Python | 📅 2025-10-27 - A very simple framework for state-of-the-art multilingual NLP built on PyTorch. Includes BERT, ELMo and Flair embeddings.
+  * [Haystack](https://github.com/deepset-ai/haystack) ⭐ 26,487 | 🐛 135 | 🌐 Python | 📅 2026-09-12 - End-to-end Python framework for building natural language search interfaces to data. Leverages Transformers and the State-of-the-Art of NLP. Supports DPR, Elasticsearch, HuggingFace’s Modelhub, and much more!
+  * [HuggingFace Datasets](https://github.com/huggingface/datasets) ⭐ 21,968 | 🐛 1,361 | 🌐 Python | 📅 2026-09-11 - standardized loaders and processing for thousands of NLP datasets.
+  * [Sentence-Transformers](https://github.com/UKPLab/sentence-transformers) ⭐ 19,092 | 🐛 1,296 | 🌐 Python | 📅 2026-09-11 - sentence/document embeddings, semantic search, and re-ranking; current standard for retrieval-style NLP.
+  * [Flair](https://github.com/zalandoresearch/flair) ⭐ 14,387 | 🐛 31 | 🌐 Python | 📅 2025-10-27 - A very simple framework for state-of-the-art multilingual NLP built on PyTorch. Includes BERT, ELMo and Flair embeddings.
   * [AllenNLP](https://github.com/allenai/allennlp) ⚠️ Archived *(archived)* - An NLP research library, built on PyTorch, for developing state-of-the-art deep learning models on a wide variety of linguistic tasks.
-  * [Tokenizers](https://github.com/huggingface/tokenizers) ⭐ 11,028 | 🐛 260 | 🌐 Rust | 📅 2026-09-11 - Tokenizers optimized for Research and Production.
+  * [Tokenizers](https://github.com/huggingface/tokenizers) ⭐ 11,031 | 🐛 260 | 🌐 Rust | 📅 2026-09-11 - Tokenizers optimized for Research and Production.
   * [TextBlob](http://textblob.readthedocs.org/) - Providing a consistent API for diving into common natural language processing (NLP) tasks. Stands on the giant shoulders of [Natural Language Toolkit (NLTK)](https://www.nltk.org/) and [Pattern](https://github.com/clips/pattern) ⭐ 8,862 | 🐛 179 | 🌐 Python | 📅 2026-08-05, and plays nicely with both :+1:
   * [Stanza](https://github.com/stanfordnlp/stanza) ⭐ 7,874 | 🐛 95 | 🌐 Python | 📅 2026-09-10 - Stanford NLP's Python toolkit for tokenization, POS, lemma, dependency parsing, and NER across 70+ languages.
-  * [Argilla](https://github.com/argilla-io/argilla) ⭐ 5,104 | 🐛 34 | 🌐 Python | 📅 2026-09-07 - open-source data annotation and feedback collection platform for LLM and NLP datasets.
-  * [Snips NLU](https://github.com/snipsco/snips-nlu) ⭐ 3,973 | 🐛 67 | 🌐 Python | 📅 2023-05-22 - A production ready library for intent parsing
+  * [Argilla](https://github.com/argilla-io/argilla) ⭐ 5,105 | 🐛 34 | 🌐 Python | 📅 2026-09-07 - open-source data annotation and feedback collection platform for LLM and NLP datasets.
+  * [Snips NLU](https://github.com/snipsco/snips-nlu) ⭐ 3,972 | 🐛 67 | 🌐 Python | 📅 2023-05-22 - A production ready library for intent parsing
   * [TextAttack](https://github.com/QData/TextAttack) ⭐ 3,475 | 🐛 20 | 🌐 Python | 📅 2026-08-15 - Adversarial attacks, adversarial training, and data augmentation in NLP
   * [NLP Architect](https://github.com/NervanaSystems/nlp-architect) ⚠️ Archived - A library for exploring the state-of-the-art deep learning topologies and techniques for NLP and NLU
   * [GluonNLP](https://github.com/dmlc/gluon-nlp) ⚠️ Archived *(archived)* - A deep learning toolkit for NLP, built on MXNet/Gluon.
@@ -234,7 +234,7 @@ Blogs and Newsletters
   * [FARM](https://github.com/deepset-ai/FARM) ⚠️ Archived - Fast & easy transfer learning for NLP. Harvesting language models for the industry. Focus on Question Answering.
   * [sacrebleu](https://github.com/mjpost/sacrebleu) ⭐ 1,259 | 🐛 22 | 🌐 Python | 📅 2026-08-20 - reproducible BLEU/chrF/TER scoring for machine translation.
   * [Sockeye](https://github.com/awslabs/sockeye) ⭐ 1,216 | 🐛 12 | 🌐 Python | 📅 2024-10-24 - Neural Machine Translation (NMT) toolkit that powers Amazon Translate.
-  * [COMET](https://github.com/Unbabel/COMET) ⭐ 779 | 🐛 63 | 🌐 Python | 📅 2026-04-21 - learned MT metrics, current de-facto standard.
+  * [COMET](https://github.com/Unbabel/COMET) ⭐ 779 | 🐛 64 | 🌐 Python | 📅 2026-04-21 - learned MT metrics, current de-facto standard.
   * [BigARTM](https://github.com/bigartm/bigartm) ⭐ 674 | 🐛 136 | 🌐 C++ | 📅 2026-02-05 - a fast library for topic modelling
   * [corex\_topic](https://github.com/gregversteeg/corex_topic) ⭐ 644 | 🐛 13 | 🌐 Python | 📅 2021-03-22 - Hierarchical Topic Modeling with Minimal Domain Knowledge
   * [Word Forms](https://github.com/gutfeeling/word_forms) ⭐ 629 | 🐛 4 | 🌐 Python | 📅 2021-06-24 - Word forms can accurately generate all possible forms of an English word
@@ -250,7 +250,7 @@ Blogs and Newsletters
   * [Rita DSL](https://github.com/zaibacu/rita-dsl) ⭐ 72 | 🐛 5 | 🌐 Python | 📅 2026-08-20 - a DSL, loosely based on [RUTA on Apache UIMA](https://uima.apache.org/ruta.html). Allows to define language patterns (rule-based NLP) which are then translated into [spaCy](https://spacy.io/), or if you prefer less features and lightweight - regex patterns.
   * [Pearmut](https://github.com/zouharvi/pearmut) ⭐ 34 | 🐛 8 | 🌐 Python | 📅 2026-08-21 - Human annotation tool for multilingual NLP tasks, such as machine translation.
   * [python-ucto](https://github.com/proycon/python-ucto) ⭐ 32 | 🐛 5 | 🌐 Cython | 📅 2026-08-20 - Unicode-aware regular-expression based tokenizer for various languages. Python binding to C++ library, supports [FoLiA format](https://proycon.github.io/folia).
-  * [yasbd-lib](https://github.com/speedyk-005/yasbd-lib) ⭐ 28 | 🐛 12 | 🌐 Python | 📅 2026-09-11 - High-accuracy, rule-based sentence boundary detector (SBD). Drop-in pysbd adapter, streaming APIs, CLI, and a spaCy component across 39+ languages.
+  * [yasbd-lib](https://github.com/speedyk-005/yasbd-lib) ⭐ 29 | 🐛 16 | 🌐 Python | 📅 2026-09-11 - High-accuracy, rule-based sentence boundary detector (SBD). Drop-in pysbd adapter, streaming APIs, CLI, and a spaCy component across 39+ languages.
   * [foliapy](https://github.com/proycon/foliapy) ⭐ 18 | 🐛 10 | 🌐 Python | 📅 2024-11-18 - Python library for working with [FoLiA](https://proycon.github.io/folia/), an XML format for linguistic annotation.
   * [sentimental-onix](https://github.com/sloev/sentimental-onix) ⭐ 3 | 🐛 2 | 🌐 Python | 📅 2024-10-31 Sentiment models for spacy using onnx
   * [gensim](https://radimrehurek.com/gensim/index.html) - Python library to conduct unsupervised semantic modelling from plain text :+1:
@@ -288,7 +288,7 @@ Blogs and Newsletters
   * [Kotidgy](https://github.com/meiblorn/kotidgy) ⭐ 3 | 🐛 0 | 🌐 Kotlin | 📅 2018-12-05 — an index-based text data generator written in Kotlin
 
 - <a id="scala">**Scala** - Scala NLP Libraries</a> | [Back to Top](#contents)
-  * [Spark NLP](https://github.com/JohnSnowLabs/spark-nlp) ⭐ 4,158 | 🐛 34 | 🌐 Scala | 📅 2026-09-10 - Spark NLP is a natural language processing library built on top of Apache Spark ML that provides simple, performant & accurate NLP annotations for machine learning pipelines that scale easily in a distributed environment.
+  * [Spark NLP](https://github.com/JohnSnowLabs/spark-nlp) ⭐ 4,158 | 🐛 34 | 🌐 Scala | 📅 2026-09-12 - Spark NLP is a natural language processing library built on top of Apache Spark ML that provides simple, performant & accurate NLP annotations for machine learning pipelines that scale easily in a distributed environment.
   * [Epic](https://github.com/dlwh/epic) ⚠️ Archived - Epic is a high performance statistical parser written in Scala, along with a framework for building complex structured prediction models.
   * [Saul](https://github.com/CogComp/saul) ⭐ 66 | 🐛 121 | 🌐 Scala | 📅 2020-01-16 - Library for developing NLP systems, including built in modules like SRL, POS, etc.
   * [ATR4S](https://github.com/ispras/atr4s) ⭐ 36 | 🐛 3 | 🌐 Scala | 📅 2018-07-23 - Toolkit with state-of-the-art [automatic term recognition](https://en.wikipedia.org/wiki/Terminology_extraction) methods.
@@ -360,10 +360,10 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 
 ### Annotation Tools
 
-* [Label Studio](https://github.com/HumanSignal/label-studio) ⭐ 28,248 | 🐛 942 | 🌐 TypeScript | 📅 2026-09-11 - open-core multi-modal labeling platform; widely used for NLP labeling.
+* [Label Studio](https://github.com/HumanSignal/label-studio) ⭐ 28,252 | 🐛 943 | 🌐 TypeScript | 📅 2026-09-11 - open-core multi-modal labeling platform; widely used for NLP labeling.
 * [doccano](https://github.com/chakki-works/doccano) ⭐ 10,768 | 🐛 398 | 🌐 Python | 📅 2026-04-14 - doccano is free, open-source, and provides annotation features for text classification, sequence labeling and sequence to sequence
-* [Argilla](https://github.com/argilla-io/argilla) ⭐ 5,104 | 🐛 34 | 🌐 Python | 📅 2026-09-07 - open-source platform for collecting human feedback, building NLP and LLM datasets, and curating preference data.
-* [Potato](https://github.com/davidjurgens/potato) ⭐ 421 | 🐛 6 | 🌐 Python | 📅 2026-09-10 - Free, open-source annotation tool covering 21+ task types (classification, span, coreference, entity linking, agent trace evaluation) with built-in MACE quality control, attention checks, AI-assisted labeling, and 300+ example tasks.
+* [Argilla](https://github.com/argilla-io/argilla) ⭐ 5,105 | 🐛 34 | 🌐 Python | 📅 2026-09-07 - open-source platform for collecting human feedback, building NLP and LLM datasets, and curating preference data.
+* [Potato](https://github.com/davidjurgens/potato) ⭐ 421 | 🐛 4 | 🌐 Python | 📅 2026-09-12 - Free, open-source annotation tool covering 21+ task types (classification, span, coreference, entity linking, agent trace evaluation) with built-in MACE quality control, attention checks, AI-assisted labeling, and 300+ example tasks.
 * [Anafora](https://github.com/weitechen/anafora) ⭐ 242 | 🐛 43 | 🌐 JavaScript | 📅 2022-10-10 is free and open source, web-based raw text annotation tool
 * [FLAT](https://github.com/proycon/flat) ⭐ 113 | 🐛 37 | 🌐 JavaScript | 📅 2025-01-24 - FLAT is a web-based linguistic annotation environment based around the [FoLiA format](http://proycon.github.io/folia), a rich XML-based format for linguistic annotation. Free and open source.
 * [Shoonya](https://github.com/AI4Bharat/Shoonya-Backend) ⭐ 28 | 🐛 47 | 🌐 Python | 📅 2026-09-10 - Shoonya is free and open source data annotation platform with wide varities of organization and workspace level management system. Shoonya is data agnostic, can be used by teams to annotate data with various level of verification stages at scale.
@@ -402,17 +402,17 @@ Contextual embeddings:
 * [ULMFiT](https://arxiv.org/abs/1801.06146) - language-model fine-tuning for text classification.
 * [InferSent](https://arxiv.org/abs/1705.02364) - sentence representations from NLI.
 
-Modern sentence and document embeddings: see [Retrieval for NLP](#retrieval-for-nlp) (Sentence-Transformers, E5, BGE-M3, Nomic, GritLM) and [MTEB](https://github.com/embeddings-benchmark/mteb) ⭐ 3,419 | 🐛 332 | 🌐 Python | 📅 2026-09-10 for current leaderboards.
+Modern sentence and document embeddings: see [Retrieval for NLP](#retrieval-for-nlp) (Sentence-Transformers, E5, BGE-M3, Nomic, GritLM) and [MTEB](https://github.com/embeddings-benchmark/mteb) ⭐ 3,420 | 🐛 326 | 🌐 Python | 📅 2026-09-11 for current leaderboards.
 
 ### Tokenization, Morphology, and Segmentation
 
 [Back to Top](#contents)
 
-* [SentencePiece](https://github.com/google/sentencepiece) ⭐ 12,070 | 🐛 5 | 🌐 C++ | 📅 2026-09-11 - language-agnostic subword tokenization.
+* [SentencePiece](https://github.com/google/sentencepiece) ⭐ 12,071 | 🐛 6 | 🌐 C++ | 📅 2026-09-12 - language-agnostic subword tokenization.
 
-* [SentencePiece](https://github.com/google/sentencepiece) ⭐ 12,070 | 🐛 5 | 🌐 C++ | 📅 2026-09-11 - language-agnostic subword tokenization (BPE and Unigram).
+* [SentencePiece](https://github.com/google/sentencepiece) ⭐ 12,071 | 🐛 6 | 🌐 C++ | 📅 2026-09-12 - language-agnostic subword tokenization (BPE and Unigram).
 
-* [Tokenizers](https://github.com/huggingface/tokenizers) ⭐ 11,028 | 🐛 260 | 🌐 Rust | 📅 2026-09-11 - fast Rust implementations of BPE, WordPiece, Unigram.
+* [Tokenizers](https://github.com/huggingface/tokenizers) ⭐ 11,031 | 🐛 260 | 🌐 Rust | 📅 2026-09-11 - fast Rust implementations of BPE, WordPiece, Unigram.
 
 * [Stanza](https://github.com/stanfordnlp/stanza) ⭐ 7,874 | 🐛 95 | 🌐 Python | 📅 2026-09-10 - tokenization, lemma, and morphology for 70+ languages.
 
@@ -459,7 +459,7 @@ Modern sentence and document embeddings: see [Retrieval for NLP](#retrieval-for-
 
 Foundational and neural:
 
-* [Flair](https://github.com/flairNLP/flair) ⭐ 14,386 | 🐛 31 | 🌐 Python | 📅 2025-10-27 - contextual string embeddings, strong NER across languages.
+* [Flair](https://github.com/flairNLP/flair) ⭐ 14,387 | 🐛 31 | 🌐 Python | 📅 2025-10-27 - contextual string embeddings, strong NER across languages.
 * [CoNLL-2003 NER](https://www.aclweb.org/anthology/W03-0419/) - canonical English NER benchmark.
 * [Neural Architectures for NER (Lample et al.)](https://arxiv.org/abs/1603.01360) - BiLSTM-CRF, the long-time go-to NER architecture.
 * [spaCy NER](https://spacy.io/usage/linguistic-features#named-entities) - production-ready.
@@ -500,7 +500,7 @@ LLM-based:
 
 [Back to Top](#contents)
 
-* [SetFit](https://github.com/huggingface/setfit) ⭐ 2,799 | 🐛 155 | 🌐 Jupyter Notebook | 📅 2026-09-08 - few-shot text classification without prompts.
+* [SetFit](https://github.com/huggingface/setfit) ⭐ 2,805 | 🐛 155 | 🌐 Jupyter Notebook | 📅 2026-09-08 - few-shot text classification without prompts.
 * [PySS3](https://github.com/sergioburdisso/pyss3) ⭐ 349 | 🐛 6 | 🌐 Python | 📅 2025-10-16 - white-box, interpretable text classifier.
 * [FastFit](https://github.com/IBM/fastfit) ⭐ 220 | 🐛 13 | 🌐 Python | 📅 2025-09-18 - fast few-shot for many-class settings.
 * [fastText classifier](https://arxiv.org/abs/1607.01759) - strong, fast linear baseline.
@@ -512,7 +512,7 @@ LLM-based:
 
 [Back to Top](#contents)
 
-* [BERTopic](https://github.com/MaartenGr/BERTopic) ⭐ 7,832 | 🐛 472 | 🌐 Python | 📅 2026-09-09 - clustering-based topic modeling on top of contextual embeddings; common modern default.
+* [BERTopic](https://github.com/MaartenGr/BERTopic) ⭐ 7,833 | 🐛 472 | 🌐 Python | 📅 2026-09-09 - clustering-based topic modeling on top of contextual embeddings; common modern default.
 * [Top2Vec](https://github.com/ddangelov/Top2Vec) ⭐ 3,106 | 🐛 84 | 🌐 Python | 📅 2024-11-14 - jointly learns topic and document vectors.
 * [BigARTM](https://github.com/bigartm/bigartm) ⭐ 674 | 🐛 136 | 🌐 C++ | 📅 2026-02-05 - fast regularized topic modeling.
 * [CorEx Topic](https://github.com/gregversteeg/corex_topic) ⭐ 644 | 🐛 13 | 🌐 Python | 📅 2021-03-22 - hierarchical topic modeling with anchor words.
@@ -559,9 +559,9 @@ Massively multilingual:
 
 Evaluation:
 
-* [BERTScore](https://github.com/Tiiiger/bert_score) ⭐ 1,918 | 🐛 46 | 🌐 Jupyter Notebook | 📅 2024-07-30 - similarity-based generation metric.
+* [BERTScore](https://github.com/Tiiiger/bert_score) ⭐ 1,919 | 🐛 46 | 🌐 Jupyter Notebook | 📅 2024-07-30 - similarity-based generation metric.
 * [sacrebleu](https://github.com/mjpost/sacrebleu) ⭐ 1,259 | 🐛 22 | 🌐 Python | 📅 2026-08-20 - reproducible BLEU/chrF/TER scoring.
-* [COMET](https://github.com/Unbabel/COMET) ⭐ 779 | 🐛 63 | 🌐 Python | 📅 2026-04-21 - learned MT metric; current de-facto standard alongside chrF.
+* [COMET](https://github.com/Unbabel/COMET) ⭐ 779 | 🐛 64 | 🌐 Python | 📅 2026-04-21 - learned MT metric; current de-facto standard alongside chrF.
 
 LLM-based:
 
@@ -649,9 +649,9 @@ Dense and late-interaction retrieval, increasingly the substrate for QA and IR:
 
 A short pointer set, since this borders adjacent fields:
 
-* [Whisper](https://github.com/openai/whisper) ⭐ 108,893 | 🐛 148 | 🌐 Python | 📅 2026-08-31 - multilingual ASR; the modern open default.
-* [Coqui TTS](https://github.com/coqui-ai/TTS) ⭐ 45,999 | 🐛 3 | 🌐 Python | 📅 2024-08-16 and [VieNeu-TTS](https://github.com/pnnbao97/VieNeu-TTS) ⭐ 2,545 | 🐛 10 | 🌐 Python | 📅 2026-09-09 - open TTS.
-* [FunASR](https://github.com/modelscope/FunASR) ⭐ 20,280 | 🐛 27 | 🌐 Python | 📅 2026-09-10 - industrial-grade ASR toolkit; 170× realtime on GPU, 50+ languages, built-in VAD, punctuation, speaker diarization, and emotion detection. Includes non-autoregressive SenseVoice and LLM-based Fun-ASR-Nano models.
+* [Whisper](https://github.com/openai/whisper) ⭐ 108,933 | 🐛 148 | 🌐 Python | 📅 2026-08-31 - multilingual ASR; the modern open default.
+* [Coqui TTS](https://github.com/coqui-ai/TTS) ⭐ 46,000 | 🐛 3 | 🌐 Python | 📅 2024-08-16 and [VieNeu-TTS](https://github.com/pnnbao97/VieNeu-TTS) ⭐ 2,547 | 🐛 11 | 🌐 Python | 📅 2026-09-09 - open TTS.
+* [FunASR](https://github.com/modelscope/FunASR) ⭐ 20,283 | 🐛 28 | 🌐 Python | 📅 2026-09-10 - industrial-grade ASR toolkit; 170× realtime on GPU, 50+ languages, built-in VAD, punctuation, speaker diarization, and emotion detection. Includes non-autoregressive SenseVoice and LLM-based Fun-ASR-Nano models.
 * [SeamlessM4T](https://github.com/facebookresearch/seamless_communication) ⭐ 11,854 | 🐛 252 | 🌐 Jupyter Notebook | 📅 2026-09-08 - unified speech and text translation.
 * [Canary](https://huggingface.co/nvidia/canary-1b) (NVIDIA, 2024) - top open multilingual ASR model.
 * [Wav2Vec 2.0](https://arxiv.org/abs/2006.11477) - foundational self-supervised speech pretraining.
@@ -742,8 +742,8 @@ Open decoder-only LMs (used as substrate for NLP tasks):
 
 NLU and cross-lingual:
 
-* [MTEB](https://github.com/embeddings-benchmark/mteb) ⭐ 3,419 | 🐛 332 | 🌐 Python | 📅 2026-09-10 - Massive Text Embedding Benchmark; standard for sentence/document encoders.
-* [BEIR](https://github.com/beir-cellar/beir) ⭐ 2,287 | 🐛 83 | 🌐 Python | 📅 2025-10-16 - heterogeneous IR benchmark for retrieval models.
+* [MTEB](https://github.com/embeddings-benchmark/mteb) ⭐ 3,420 | 🐛 326 | 🌐 Python | 📅 2026-09-11 - Massive Text Embedding Benchmark; standard for sentence/document encoders.
+* [BEIR](https://github.com/beir-cellar/beir) ⭐ 2,288 | 🐛 83 | 🌐 Python | 📅 2025-10-16 - heterogeneous IR benchmark for retrieval models.
 * [FLORES-200](https://github.com/facebookresearch/flores) ⚠️ Archived - MT evaluation across 200 languages.
 * [XNLI](https://github.com/facebookresearch/XNLI) ⚠️ Archived - cross-lingual natural language inference, 15 languages.
 * [GLUE](https://gluebenchmark.com/) and [SuperGLUE](https://super.gluebenchmark.com/) - English NLU benchmarks.
@@ -751,7 +751,7 @@ NLU and cross-lingual:
 
 Modern LM evaluation (2023-2026):
 
-* [LM Evaluation Harness](https://github.com/EleutherAI/lm-evaluation-harness) ⭐ 13,949 | 🐛 965 | 🌐 Python | 📅 2026-09-10 - unified framework for LM benchmark evaluation.
+* [LM Evaluation Harness](https://github.com/EleutherAI/lm-evaluation-harness) ⭐ 13,959 | 🐛 974 | 🌐 Python | 📅 2026-09-10 - unified framework for LM benchmark evaluation.
 * [BIG-bench](https://github.com/google/BIG-bench) ⚠️ Archived - 200+ tasks probing language model capabilities.
 * [MMLU](https://github.com/hendrycks/test) ⭐ 1,616 | 🐛 16 | 🌐 Python | 📅 2023-05-28 - multitask knowledge evaluation across 57 subjects.
 * [HELM](https://crfm.stanford.edu/helm/) - holistic evaluation across NLP tasks, accuracy and beyond.
@@ -767,7 +767,7 @@ Modern LM evaluation (2023-2026):
 
 Long-context evaluation:
 
-* [Needle in a Haystack](https://github.com/gkamradt/LLMTest_NeedleInAHaystack) ⭐ 2,382 | 🐛 29 | 🌐 Jupyter Notebook | 📅 2026-06-08 - retrieval probe for long-context windows.
+* [Needle in a Haystack](https://github.com/gkamradt/LLMTest_NeedleInAHaystack) ⭐ 2,384 | 🐛 29 | 🌐 Jupyter Notebook | 📅 2026-06-08 - retrieval probe for long-context windows.
 * [LongBench](https://github.com/THUDM/LongBench) ⭐ 1,235 | 🐛 68 | 🌐 Python | 📅 2025-01-15 - bilingual long-context benchmark across NLP tasks.
 * [RULER](https://arxiv.org/abs/2404.06654) (2024) - synthetic long-context tasks beyond simple retrieval.
 * [LongBench v2](https://arxiv.org/abs/2412.15204) (2025) - 503 expert-crafted multiple-choice questions spanning 8K-2M-word contexts with deep multi-hop reasoning; humans score 53.7% under time pressure.
@@ -811,9 +811,9 @@ A trend-defining direction in 2024-2026: models that produce explicit reasoning 
 
 ### Factuality, Hallucination, Calibration
 
-* [RAGAS](https://github.com/explodinggradients/ragas) ⭐ 15,705 | 🐛 597 | 🌐 Python | 📅 2026-02-24 - reference-free evaluation for RAG and QA pipelines.
+* [RAGAS](https://github.com/explodinggradients/ragas) ⭐ 15,709 | 🐛 588 | 🌐 Python | 📅 2026-02-24 - reference-free evaluation for RAG and QA pipelines.
 * [TruthfulQA](https://github.com/sylinrl/TruthfulQA) ⭐ 945 | 🐛 21 | 🌐 Jupyter Notebook | 📅 2025-01-16 - benchmark for truthfulness in question answering.
-* [SelfCheckGPT](https://github.com/potsawee/selfcheckgpt) ⭐ 629 | 🐛 3 | 🌐 Python | 📅 2024-06-26 - sampling-based hallucination detection.
+* [SelfCheckGPT](https://github.com/potsawee/selfcheckgpt) ⭐ 630 | 🐛 3 | 🌐 Python | 📅 2024-06-26 - sampling-based hallucination detection.
 * [FActScore](https://github.com/shmsw25/FActScore) ⭐ 458 | 🐛 22 | 🌐 Python | 📅 2025-04-13 - fine-grained factual precision in long-form generation.
 * [Survey of Hallucination in Natural Language Generation](https://arxiv.org/abs/2202.03629) - taxonomy and mitigation strategies.
 * [LongFact / SAFE](https://arxiv.org/abs/2403.18802) (2024) - long-form factuality benchmark and search-augmented evaluator.
@@ -848,7 +848,7 @@ A trend-defining direction in 2024-2026: models that produce explicit reasoning 
 Distillation and small models:
 
 * [GTE](https://huggingface.co/thenlper/gte-base), [BGE](https://github.com/FlagOpen/FlagEmbedding) ⭐ 12,153 | 🐛 908 | 🌐 Python | 📅 2026-08-24, and [Stella](https://huggingface.co/dunzhang/stella_en_1.5B_v5) - compact text embedding models near the top of MTEB.
-* [SetFit](https://github.com/huggingface/setfit) ⭐ 2,799 | 🐛 155 | 🌐 Jupyter Notebook | 📅 2026-09-08 - few-shot text classification without prompts.
+* [SetFit](https://github.com/huggingface/setfit) ⭐ 2,805 | 🐛 155 | 🌐 Jupyter Notebook | 📅 2026-09-08 - few-shot text classification without prompts.
 * [FastFit](https://github.com/IBM/fastfit) ⭐ 220 | 🐛 13 | 🌐 Python | 📅 2025-09-18 - fast few-shot classification for many-class settings.
 * [DistilBERT](https://arxiv.org/abs/1910.01108) and [MiniLM](https://arxiv.org/abs/2002.10957) - distilled encoders for production NLP.
 * [Phi-3 / Phi-4](https://arxiv.org/abs/2412.08905) (Microsoft, 2024) - small models trained on curated data, competitive with much larger ones on NLP benchmarks.
@@ -861,9 +861,9 @@ Distillation and small models:
 
 Quantization and serving (relevant when deploying NLP models at scale):
 
-* [GGUF / llama.cpp](https://github.com/ggerganov/llama.cpp) ⭐ 127,835 | 🐛 2,473 | 🌐 C++ | 📅 2026-09-11 - portable quantized inference.
-* [vLLM](https://github.com/vllm-project/vllm) ⭐ 91,495 | 🐛 7,868 | 🌐 Python | 📅 2026-09-11 - PagedAttention-based high-throughput LM serving.
-* [SGLang](https://github.com/sgl-project/sglang) ⭐ 35,809 | 🐛 5,311 | 🌐 Python | 📅 2026-09-11 - structured generation and efficient serving.
+* [GGUF / llama.cpp](https://github.com/ggerganov/llama.cpp) ⭐ 127,959 | 🐛 2,465 | 🌐 C++ | 📅 2026-09-12 - portable quantized inference.
+* [vLLM](https://github.com/vllm-project/vllm) ⭐ 91,557 | 🐛 7,905 | 🌐 Python | 📅 2026-09-12 - PagedAttention-based high-throughput LM serving.
+* [SGLang](https://github.com/sgl-project/sglang) ⭐ 35,846 | 🐛 5,304 | 🌐 Python | 📅 2026-09-12 - structured generation and efficient serving.
 * [Text Generation Inference (TGI)](https://github.com/huggingface/text-generation-inference) ⚠️ Archived - HF production serving for LMs.
 * [GPTQ](https://arxiv.org/abs/2210.17323) - post-training quantization for transformers.
 * [AWQ](https://arxiv.org/abs/2306.00978) - activation-aware weight quantization.
@@ -871,13 +871,13 @@ Quantization and serving (relevant when deploying NLP models at scale):
 
 Parameter-efficient fine-tuning:
 
-* [PEFT](https://github.com/huggingface/peft) ⭐ 21,655 | 🐛 68 | 🌐 Python | 📅 2026-09-11 - HuggingFace library bundling LoRA, prefix tuning, IA3, and others.
+* [PEFT](https://github.com/huggingface/peft) ⭐ 21,662 | 🐛 83 | 🌐 Python | 📅 2026-09-11 - HuggingFace library bundling LoRA, prefix tuning, IA3, and others.
 * [LoRA](https://arxiv.org/abs/2106.09685) and [QLoRA](https://arxiv.org/abs/2305.14314) - low-rank adapters and quantized fine-tuning; the standard for adapting LMs to NLP tasks on modest hardware.
 * [DoRA](https://arxiv.org/abs/2402.09353) (2024) - weight-decomposed low-rank adaptation.
 
 ### Instruction Tuning and Preference Optimization
 
-* [TRL](https://github.com/huggingface/trl) ⭐ 19,281 | 🐛 306 | 🌐 Python | 📅 2026-09-11 - reference library for SFT, DPO, GRPO, and RLHF.
+* [TRL](https://github.com/huggingface/trl) ⭐ 19,291 | 🐛 310 | 🌐 Python | 📅 2026-09-12 - reference library for SFT, DPO, GRPO, and RLHF.
 * [Self-Instruct](https://github.com/yizhongw/self-instruct) ⭐ 4,611 | 🐛 13 | 🌐 Python | 📅 2023-03-27 - bootstrapping instruction data from LMs.
 * [Super-NaturalInstructions](https://github.com/allenai/natural-instructions) ⭐ 1,047 | 🐛 78 | 🌐 Python | 📅 2023-12-11 - 1600+ NLP tasks with instructions.
 * [FLAN](https://arxiv.org/abs/2109.01652) - finetuned language models as zero-shot learners.
@@ -956,25 +956,25 @@ Resources organized by human language. Click a section to expand.
 
 ### Libraries
 
-* [HanLP](https://github.com/hankcs/HanLP) ⭐ 36,491 | 🐛 12 | 🌐 Python | 📅 2025-11-15 - multilingual NLP library with strong Chinese support.
-* [jieba](https://github.com/fxsjy/jieba#jieba-1) ⭐ 35,148 | 🐛 700 | 🌐 Python | 📅 2024-08-21 - Python package for Chinese word segmentation.
-* [SnowNLP](https://github.com/isnowfy/snownlp) ⭐ 6,631 | 🐛 44 | 🌐 Python | 📅 2020-01-19 - Python package for Chinese NLP.
+* [HanLP](https://github.com/hankcs/HanLP) ⭐ 36,489 | 🐛 12 | 🌐 Python | 📅 2025-11-15 - multilingual NLP library with strong Chinese support.
+* [jieba](https://github.com/fxsjy/jieba#jieba-1) ⭐ 35,149 | 🐛 700 | 🌐 Python | 📅 2024-08-21 - Python package for Chinese word segmentation.
+* [SnowNLP](https://github.com/isnowfy/snownlp) ⭐ 6,632 | 🐛 44 | 🌐 Python | 📅 2020-01-19 - Python package for Chinese NLP.
 * [LTP](https://github.com/HIT-SCIR/ltp) ⭐ 5,259 | 🐛 76 | 🌐 Python | 📅 2026-03-11 - HIT Language Technology Platform: segmentation, POS, NER, parsing.
 * [FudanNLP](https://github.com/FudanNLP/fnlp) ⭐ 2,683 | 🐛 43 | 🌐 Java | 📅 2023-11-17 - Java library for Chinese text processing.
 
 ### Models and Embeddings
 
-* [DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3) ⭐ 104,428 | 🐛 221 | 🌐 Python | 📅 2025-08-28 - efficient open MoE model with strong Chinese.
-* [Qwen 2.5 / Qwen 3](https://github.com/QwenLM/Qwen3) ⭐ 27,606 | 🐛 67 | 🌐 Python | 📅 2026-01-09 - Alibaba's open Chinese-strong LM family.
-* [ChatGLM3 / GLM-4](https://github.com/THUDM/ChatGLM3) ⭐ 13,656 | 🐛 35 | 🌐 Python | 📅 2025-01-13 - Tsinghua's bilingual Chinese-English LMs.
-* [Chinese-BERT-wwm](https://github.com/ymcui/Chinese-BERT-wwm) ⭐ 10,227 | 🐛 1 | 🌐 Python | 📅 2026-04-19 - whole-word masking BERT for Chinese.
+* [DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3) ⭐ 104,431 | 🐛 222 | 🌐 Python | 📅 2025-08-28 - efficient open MoE model with strong Chinese.
+* [Qwen 2.5 / Qwen 3](https://github.com/QwenLM/Qwen3) ⭐ 27,611 | 🐛 67 | 🌐 Python | 📅 2026-01-09 - Alibaba's open Chinese-strong LM family.
+* [ChatGLM3 / GLM-4](https://github.com/THUDM/ChatGLM3) ⭐ 13,655 | 🐛 35 | 🌐 Python | 📅 2025-01-13 - Tsinghua's bilingual Chinese-English LMs.
+* [Chinese-BERT-wwm](https://github.com/ymcui/Chinese-BERT-wwm) ⭐ 10,226 | 🐛 1 | 🌐 Python | 📅 2026-04-19 - whole-word masking BERT for Chinese.
 * [Yi](https://github.com/01-ai/Yi) ⭐ 7,835 | 🐛 31 | 🌐 Jupyter Notebook | 📅 2024-11-27 - 01.AI's bilingual open LMs.
-* [Baichuan 2](https://github.com/baichuan-inc/Baichuan2) ⭐ 4,083 | 🐛 281 | 🌐 Python | 📅 2024-11-08 - open Chinese LM.
+* [Baichuan 2](https://github.com/baichuan-inc/Baichuan2) ⭐ 4,084 | 🐛 281 | 🌐 Python | 📅 2024-11-08 - open Chinese LM.
 * [MacBERT](https://github.com/ymcui/MacBERT) ⭐ 721 | 🐛 0 | 📅 2026-04-19 - improved Chinese BERT with MLM-as-correction pretraining.
 
 ### Anthology
 
-* [funNLP](https://github.com/fighting41love/funNLP) ⭐ 83,041 | 🐛 53 | 🌐 Python | 📅 2024-05-10 - large collection of Chinese NLP tools and resources.
+* [funNLP](https://github.com/fighting41love/funNLP) ⭐ 83,058 | 🐛 53 | 🌐 Python | 📅 2024-05-10 - large collection of Chinese NLP tools and resources.
 
 </details>
 
@@ -1019,7 +1019,7 @@ Resources organized by human language. Click a section to expand.
 
 [Back to Top](#contents)
 
-* [German-NLP](https://github.com/adbar/German-NLP) ⭐ 535 | 🐛 1 | 📅 2024-10-30 - curated list of open-access, open-source, and off-the-shelf resources and tools developed with a focus on German.
+* [German-NLP](https://github.com/adbar/German-NLP) ⭐ 535 | 🐛 0 | 📅 2026-09-11 - curated list of open-access, open-source, and off-the-shelf resources and tools developed with a focus on German.
 
 </details>
 
@@ -1084,7 +1084,7 @@ Resources organized by human language. Click a section to expand.
 
 ### Models and Embeddings
 
-* [IndicTrans2](https://github.com/AI4Bharat/IndicTrans2) ⭐ 471 | 🐛 16 | 🌐 Python | 📅 2025-10-03 (2023-2024) - high-quality MT for 22 Indic languages.
+* [IndicTrans2](https://github.com/AI4Bharat/IndicTrans2) ⭐ 471 | 🐛 17 | 🌐 Python | 📅 2025-10-03 (2023-2024) - high-quality MT for 22 Indic languages.
 * [IndicBERT v2](https://github.com/AI4Bharat/IndicBERT) ⭐ 122 | 🐛 17 | 🌐 Python | 📅 2025-04-06 (2022-2024) - multilingual BERT for 23 Indic languages.
 * [OpenHathi](https://huggingface.co/sarvamai/OpenHathi-7B-Hi-v0.1-Base) (Sarvam AI, 2023) - bilingual Hindi-English LLaMA continuation.
 * [Airavata](https://huggingface.co/ai4bharat/Airavata) (2024) - instruction-tuned Hindi LLM.
@@ -1140,7 +1140,7 @@ Resources organized by human language. Click a section to expand.
 
 ### Libraries
 
-* [Kiwi](https://github.com/bab2min/Kiwi) ⭐ 779 | 🐛 19 | 🌐 C++ | 📅 2026-09-11 - fast Korean morphological analyzer.
+* [Kiwi](https://github.com/bab2min/Kiwi) ⭐ 779 | 🐛 18 | 🌐 C++ | 📅 2026-09-12 - fast Korean morphological analyzer.
 * [kss](https://github.com/hyunwoongko/kss) ⭐ 470 | 🐛 6 | 🌐 Python | 📅 2025-11-13 - Korean sentence splitter.
 * [Garu](https://github.com/ongjin/garu) ⭐ 176 | 🐛 0 | 🌐 Python | 📅 2026-09-07 - browser-native Korean morphological analyzer running fully client-side via WebAssembly (1MB model, offline, MIT).
 * [KoNLPy](http://konlpy.org) - Python package for Korean natural language processing.
@@ -1366,8 +1366,8 @@ Resources organized by human language. Click a section to expand.
 
 ### Libraries
 
-* [VieNeu-TTS](https://github.com/pnnbao97/VieNeu-TTS) ⭐ 2,545 | 🐛 10 | 🌐 Python | 📅 2026-09-09 - on-device Vietnamese text-to-speech with voice cloning.
-* [underthesea](https://github.com/undertheseanlp/underthesea) ⭐ 1,802 | 🐛 36 | 🌐 Python | 📅 2026-09-11 - Vietnamese NLP toolkit.
+* [VieNeu-TTS](https://github.com/pnnbao97/VieNeu-TTS) ⭐ 2,547 | 🐛 11 | 🌐 Python | 📅 2026-09-09 - on-device Vietnamese text-to-speech with voice cloning.
+* [underthesea](https://github.com/undertheseanlp/underthesea) ⭐ 1,803 | 🐛 36 | 🌐 Python | 📅 2026-09-12 - Vietnamese NLP toolkit.
 * [VnCoreNLP](https://github.com/vncorenlp/VnCoreNLP) ⭐ 678 | 🐛 4 | 🌐 Java | 📅 2023-02-12 - Vietnamese NLP toolkit.
 * [pyvi](https://github.com/trungtv/pyvi) ⭐ 279 | 🐛 6 | 🌐 Jupyter Notebook | 📅 2024-09-26 - Python Vietnamese core NLP toolkit.
 * [vn.vitk](https://github.com/phuonglh/vn.vitk) ⭐ 218 | 🐛 1 | 🌐 Java | 📅 2022-01-27 - Vietnamese text processing toolkit.
@@ -1405,11 +1405,11 @@ Resources organized by human language. Click a section to expand.
 
 Adjacent curated lists for topics out of scope here:
 
-* [awesome-llm](https://github.com/Hannibal046/Awesome-LLM) ⭐ 27,355 | 🐛 451 | 📅 2025-07-31 - general-purpose large language model resources.
+* [awesome-llm](https://github.com/Hannibal046/Awesome-LLM) ⭐ 27,359 | 🐛 452 | 📅 2025-07-31 - general-purpose large language model resources.
 * [awesome-mlops](https://github.com/visenger/awesome-mlops) ⭐ 14,192 | 🐛 45 | 📅 2024-11-21 - production ML, including LLM serving.
-* [awesome-generative-ai](https://github.com/steven2358/awesome-generative-ai) ⭐ 12,621 | 🐛 653 | 📅 2026-09-09 - generative AI across modalities.
-* [awesome-prompt-engineering](https://github.com/promptslab/Awesome-Prompt-Engineering) ⭐ 6,327 | 🐛 114 | 🌐 TypeScript | 📅 2026-09-11 - prompting techniques and template libraries.
-* [awesome-rag](https://github.com/Danielskry/Awesome-RAG) ⭐ 1,360 | 🐛 98 | 📅 2026-07-09 - retrieval-augmented generation systems and tooling.
+* [awesome-generative-ai](https://github.com/steven2358/awesome-generative-ai) ⭐ 12,630 | 🐛 657 | 📅 2026-09-09 - generative AI across modalities.
+* [awesome-prompt-engineering](https://github.com/promptslab/Awesome-Prompt-Engineering) ⭐ 6,330 | 🐛 114 | 🌐 TypeScript | 📅 2026-09-12 - prompting techniques and template libraries.
+* [awesome-rag](https://github.com/Danielskry/Awesome-RAG) ⭐ 1,361 | 🐛 100 | 📅 2026-07-09 - retrieval-augmented generation systems and tooling.
 
 ## Citation
 
@@ -1431,4 +1431,4 @@ If you find this repository useful, please consider citing this list:
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-09-11._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-09-12._
